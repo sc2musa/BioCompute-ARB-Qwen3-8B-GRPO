@@ -22,7 +22,7 @@ visible to the agent. Each run produces a binary `reward` (solved or not) and a 
 | | |
 |---|---|
 | Hugging Face | **[SC2meisah/BioCompute-ARB-Qwen3-8B-GRPO](https://huggingface.co/SC2meisah/BioCompute-ARB-Qwen3-8B-GRPO)** |
-| Revision | `REVISION_PLACEHOLDER` |
+| Revision | `a0115dfc0783354f2d5b18d14317c60cc3379327` |
 | Base model | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) |
 | Training | rejection-sampling fine-tuning on self-generated T2 trajectories, then 60 steps of multi-turn agentic GRPO (ROLL) on freshly generated training instances; no teacher model, hidden tests never used |
 | Use | non-thinking mode (`enable_thinking=False`) with the agent in `harness/agent.py`, configuration F |
