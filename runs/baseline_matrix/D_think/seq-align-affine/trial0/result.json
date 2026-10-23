@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 0,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-f11b77833cf891ab",
+ "reward": 0,
+ "score": 0.06060606060606061,
+ "agent_seconds": 148.7,
+ "agent": {
+  "turns": 5,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "prompt_tokens": 42651,
+  "completion_tokens": 10385,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 148.7,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.06060606060606061,
+  "n_pass": 4,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0625,
+  "perf_seconds": [
+   10.167197816073895,
+   10.14255889505148
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: ^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial0/verify/app/align.py\", line 99, in align\n    if dp[i][j][2] == dp[i][j-1][2] + gap_extend:\n                      ~~~~~^^^^^\nIndexError: index -2 is out of bounds for axis 0 with size 1\n",
+    "seconds": 0.0008746832609176636
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial0/verify/app/align.py\", line 88, in align\n    if dp[i][j][1] == dp[i-1][j][1] + gap_extend:\n                      ~~^^^^^\nIndexError: index -2 is out of bounds for axis 0 with size 1\n",
+    "seconds": 0.0002717822790145874
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "score 9223372036854775804 != optimal 3",
+    "seconds": 9.828805923461914e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "score 9223372036854775804 != optimal 3",
+    "seconds": 6.622076034545898e-05
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "score 9223372036854775803 != optimal -3",
+    "seconds": 5.310773849487305e-05
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score 9223372036854775803 != optimal 0",
+    "seconds": 4.472583532333374e-05
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "score 9223372036854775807 != optimal 8",
+    "seconds": 0.0004097595810890198
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "score 9223372036854775807 != optimal 8",
+    "seconds": 0.00040215998888015747
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score 9223372036854775789 != optimal -38",
+    "seconds": 0.0005821958184242249
+   },
+   {
+    "id": "edge6_local",
+    "pass": false,
+    "reason": "score 9223372036854775804 != optimal 0",
+    "seconds": 0.0005499646067619324
+   }
+  ],
+  "verifier_seconds": 25.4
+ }
+}

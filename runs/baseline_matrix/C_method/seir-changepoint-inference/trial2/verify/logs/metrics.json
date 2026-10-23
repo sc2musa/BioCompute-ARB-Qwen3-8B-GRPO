@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.060548968613147736,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.003269284963607788,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0022069811820983887,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.020588278770446777,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.002564452588558197,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.003796212375164032,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.002314947545528412,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0016616806387901306,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.006065487861633301,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0022477805614471436,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0016706734895706177,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.010611653327941895,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0035515353083610535,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

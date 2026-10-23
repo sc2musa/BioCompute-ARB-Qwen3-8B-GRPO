@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.018111711950041354,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0017558869440108538,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0015992589760571718,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0014944600407034159,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.001486811088398099,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0014280290342867374,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0015061409212648869,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0015171060804277658,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0015444689197465777,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0014431680319830775,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0013797429855912924,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0013788259821012616,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0015778129454702139,
+   "error": "aojian/envs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'numpy.float64' object cannot be interpreted as an integer\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 18.816382779856212,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 2.8172657499089837,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.6995596749759092,
+    "R_post": 0.7026528690641323,
+    "forecast_rmae": 785.8016223388443
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 1.0243105249246582,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 47,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 1.0309345950372517,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 46,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 1.0167212329106405,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 1.023081511957571,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 51,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 3.1744454141007736,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.8173088252020418,
+    "R_post": 0.7488706325374841,
+    "change_day": 32,
+    "forecast_rmae": 9.683375404371185
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 3.5560774840414524,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.8516513968738133,
+    "R_post": 0.8104992818991112,
+    "change_day": 29,
+    "forecast_rmae": 8859.712106435138
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 1.0350679840194061,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 1.036433313973248,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 48,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 1.0166037450544536,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 1.0309145889477804,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 20,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 1.054526634979993,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": 41,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

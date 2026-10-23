@@ -1,0 +1,130 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 4,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-9a0d1f149d2bf8a6",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 846.6,
+ "agent": {
+  "turns": 18,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 152440,
+  "completion_tokens": 84521,
+  "submitted": false,
+  "stop_reason": "api_error: BadRequestError: Error code: 400 - {'error': {'message': \"'max_tokens' or 'max_completion_tokens' is too large: 12288. This model's maximum context length is 40960 tokens and your request has 29772 input tokens (12288 > 40960 - 29772). None\", 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+  "repeated_calls": 3,
+  "repeat_notes": 0,
+  "overflow_retries": 1,
+  "wall_seconds": 846.5,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 32.99112747784238,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 2.7427928409306332,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 2.743839282891713,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 2.7432719790376723,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 2.7676827929681167,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 2.752879463019781,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 2.730416758102365,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 2.713478024932556,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 2.709990454954095,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 2.743801207980141,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 2.7733757379464805,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 2.829964966047555,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 2.7396339690312743,
+    "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 73.8
+ }
+}

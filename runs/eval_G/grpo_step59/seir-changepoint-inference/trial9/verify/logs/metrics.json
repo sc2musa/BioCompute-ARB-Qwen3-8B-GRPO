@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.13085856928955764,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.010462774080224335,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.010504657053388655,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.015921975020319223,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.00883966195397079,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.007428326993249357,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.013401933014392853,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.009916809038259089,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.014037233078852296,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.007713678991422057,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.007882442092522979,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.017122649936936796,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.007626428036019206,
+   "error": "s))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo59_G/seir-changepoint-inference/trial9/verify/app/fit.py\", line 56, in fit\n    beta_t = R_post_opt * gamma\n                          ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

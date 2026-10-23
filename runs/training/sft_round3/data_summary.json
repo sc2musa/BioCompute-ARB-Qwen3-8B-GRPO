@@ -1,0 +1,1 @@
+{"instances": 128, "trajectories": 1024, "kept": 409, "kept_per_task": {"reaction-network-stiff": 409}, "kept_per_guidance": {"method": 409}, "uncovered": 2, "samples": 3587, "skipped_turns": 3, "not_target_turns": 109}

@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 8,
+ "total_seconds": 0.013516144012100995,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0015758619410917163,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0019423299236223102,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0017577280523255467,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0019419000018388033,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0014705559005960822,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0014921680558472872,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0014463100815191865,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0018892900552600622,
+   "reason": "error: $PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not subscriptable\n"
+  }
+ ]
+}

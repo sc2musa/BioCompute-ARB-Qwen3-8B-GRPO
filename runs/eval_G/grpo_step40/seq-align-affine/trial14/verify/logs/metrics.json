@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  0.0031579580390825868,
+  0.0030430119950324297
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.0022722859866917133
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.0001601940020918846
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.00011150503996759653
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 9.85169317573309e-05
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.00011185999028384686
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 9.513599798083305e-05
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.982792496681213e-05
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.648994844406843e-05
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.591299410909414e-05
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: ld.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_G/seq-align-affine/trial14/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.59270803630352e-05
+  }
+ ]
+}

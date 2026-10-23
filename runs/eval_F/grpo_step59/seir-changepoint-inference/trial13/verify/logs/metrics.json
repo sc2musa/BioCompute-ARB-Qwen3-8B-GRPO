@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.020397056825459003,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0018414309015497565,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0020561410346999764,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0017312789568677545,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0018563379999250174,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.001573423040099442,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0016159970546141267,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0015568899689242244,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.001588469953276217,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0014871649909764528,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0016176420031115413,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0016166029963642359,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0018556779250502586,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minpack_py.py\", line 1021, in curve_fit\n    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.objective_function() takes 1 positional argument but 2 were given\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

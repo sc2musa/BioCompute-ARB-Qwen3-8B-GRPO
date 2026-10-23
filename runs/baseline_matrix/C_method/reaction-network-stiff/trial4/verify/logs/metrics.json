@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 8,
+ "total_seconds": 0.11262976378202438,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.007507406175136566,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.03176627308130264,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.01609034091234207,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.011617258191108704,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.014018505811691284,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.011152729392051697,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.01942993700504303,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0010473132133483887,
+   "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+  }
+ ]
+}

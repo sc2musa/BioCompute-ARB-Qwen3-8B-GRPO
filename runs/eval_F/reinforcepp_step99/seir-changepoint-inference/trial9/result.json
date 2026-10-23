@@ -1,0 +1,130 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 9,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-ae4e3e28eb376fe1",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 4.9,
+ "agent": {
+  "turns": 13,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "prompt_tokens": 52583,
+  "completion_tokens": 384,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 4.8,
+  "agent": "llm",
+  "model": "qwen3-8b-rl99",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.03575235407333821,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.0022482828935608268,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.0030366790015250444,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.003011853084899485,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.0030080670258030295,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.003027260070666671,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.0030523960012942553,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.003092254977673292,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.00294720905367285,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 0.003063158947043121,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 0.0031263610580936074,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.003101666923612356,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.003037165035493672,
+    "error": "py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial9/verify/app/fit.py\", line 6, in fit\n    raise NotImplementedError\nNotImplementedError\n",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 1.2
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 8,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-1145a37e5baa682c",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 26.0,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 26,
+  "tool_errors": 0,
+  "prompt_tokens": 350520,
+  "completion_tokens": 785,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 19,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 26.0,
+  "agent": "llm",
+  "model": "qwen3-8b-rft",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.024216653197072446,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.002448585000820458,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.002945336978882551,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0030493370722979307,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0030610659159719944,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0029619180131703615,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.003631118102930486,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0031153260497376323,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.003003966063261032,
+    "reason": "error: ne 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial8/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+   }
+  ],
+  "verifier_seconds": 1.1
+ }
+}

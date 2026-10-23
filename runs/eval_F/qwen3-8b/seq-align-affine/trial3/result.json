@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 3,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-cdbcca0a856f8781",
+ "reward": 0,
+ "score": 0.15151515151515152,
+ "agent_seconds": 64.7,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 42745,
+  "completion_tokens": 4475,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 64.7,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.15151515151515152,
+  "n_pass": 10,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.15625,
+  "perf_seconds": [
+   3.163455398986116,
+   3.654584147967398
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.0011515929363667965
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.000299595994874835
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00021225400269031525
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00021025806199759245
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00017964700236916542
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.0001833799760788679
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00017716898582875729
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00017409701831638813
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00018865102902054787
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "error: w/runs/eval_round3/base/seq-align-affine/trial3/verify/app/align.py\", line 76, in align\n    return (optimal_score, \"\".join(aligned_a), \"\".join(aligned_b))\n                                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.0002723099896684289
+   }
+  ],
+  "verifier_seconds": 9.0
+ }
+}

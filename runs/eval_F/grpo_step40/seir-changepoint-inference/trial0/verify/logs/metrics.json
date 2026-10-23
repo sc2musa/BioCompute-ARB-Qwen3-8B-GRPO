@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.03627166501246393,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0031590249855071306,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0032624839805066586,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0030128239886835217,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0031022269977256656,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0030594849959015846,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0029921779641881585,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.002969089080579579,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0029572839848697186,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0029186629690229893,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.002949745045043528,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.002955974079668522,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.002932686940766871,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'change_day' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

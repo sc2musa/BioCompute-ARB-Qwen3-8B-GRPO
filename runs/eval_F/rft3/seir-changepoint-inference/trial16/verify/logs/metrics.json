@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.35022965795360506,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0311847529374063,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.02852438692934811,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.028989607002586126,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.03042448591440916,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.02890129608567804,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.02859095495659858,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.028930876054801047,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.028559328988194466,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.028934068977832794,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.02932000404689461,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.028992610052227974,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.028877286007627845,
+   "error": "e(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seir-changepoint-inference/trial16/verify/app/fit.py\", line 72, in fit\n    beta = R_post * gamma\n                    ^^^^^\nNameError: name 'gamma' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

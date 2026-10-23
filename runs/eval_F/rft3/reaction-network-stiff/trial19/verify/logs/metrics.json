@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 8,
+ "total_seconds": 0.023847567848861217,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0022296010283753276,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0029997440287843347,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0030311659211292863,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.002995861927047372,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0032402329379692674,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.003104171948507428,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0029300410533323884,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.003316749003715813,
+   "reason": "error: e 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/reaction-network-stiff/trial19/verify/app/simulate.py\", line 6, in simulate\n    raise NotImplementedError\nNotImplementedError\n"
+  }
+ ]
+}

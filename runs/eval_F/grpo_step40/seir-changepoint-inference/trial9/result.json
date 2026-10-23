@@ -1,0 +1,130 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 9,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-50ac7f96e482316a",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 29.3,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 26,
+  "tool_errors": 0,
+  "prompt_tokens": 168070,
+  "completion_tokens": 2117,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 9,
+  "repeat_notes": 3,
+  "overflow_retries": 0,
+  "wall_seconds": 29.3,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo40",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.02585641376208514,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.0022691639605909586,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.002196430927142501,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.0022557060001417994,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.0020595709793269634,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.0021002449793741107,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.0021430449560284615,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.002117909025400877,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.002232305007055402,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 0.002065613050945103,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 0.0020404369570314884,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.002275547944009304,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.002100439975038171,
+    "error": " File \"$SHARED\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object of type 'numpy.float64' has no len()\n",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 6.6
+ }
+}

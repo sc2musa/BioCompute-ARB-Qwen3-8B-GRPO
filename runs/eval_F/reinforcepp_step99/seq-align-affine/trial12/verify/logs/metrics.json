@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.10606060606060606,
+ "n_pass": 7,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.109375,
+ "perf_seconds": [
+  2.0789083000272512,
+  2.1107725279871374
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "score [0.0] != optimal 0",
+   "seconds": 0.00010818697046488523
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.0007093270542100072
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.00021534296683967113
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.00019605900160968304
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.00016876996960490942
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.0002271089470013976
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "error: rl99_F/seq-align-affine/trial12/verify/app/align.py\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.0002537689870223403
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: <path>\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: operands could not be broadcast together with shapes (17,) (9,) \n",
+   "seconds": 0.0002794950269162655
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "score 12.0 != optimal 15",
+   "seconds": 0.00014216499403119087
+  },
+  {
+   "id": "rand0_global",
+   "pass": false,
+   "reason": "error: <path>\", line 36, in align\n    max_score = max(score_matrix[-1, :], score_matrix[:, -1])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: operands could not be broadcast together with shapes (151,) (144,) \n",
+   "seconds": 0.018892496009357274
+  }
+ ]
+}

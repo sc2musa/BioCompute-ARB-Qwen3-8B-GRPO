@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 18,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-78b93162dd819e6d",
+ "reward": 0,
+ "score": 0.22727272727272727,
+ "agent_seconds": 972.2,
+ "agent": {
+  "turns": 18,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 107487,
+  "completion_tokens": 114502,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 2,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 972.2,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.22727272727272727,
+  "n_pass": 15,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.234375,
+  "perf_seconds": [
+   12.268417680053972,
+   14.58020743203815
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 2.8919894248247147e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.8830178305506706e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 2.485932782292366e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.8940772861242294e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -32.0 != optimal -38",
+    "seconds": 0.0005502740386873484
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.0007075680186972022
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 12.0 != optimal 15",
+    "seconds": 0.0008743389043956995
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.11319126305170357
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 36.0 != optimal 42",
+    "seconds": 0.06689054798334837
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.03837036609183997
+   }
+  ],
+  "verifier_seconds": 33.7
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.07575757575757576,
+ "n_pass": 5,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.078125,
+ "perf_seconds": [
+  16.095646247267723,
+  16.406099759042263
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.010182075202465057
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0005840882658958435
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0005340129137039185
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0005083680152893066
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 0.00011638551950454712
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.000506669282913208
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0007399022579193115
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 0.00036916136741638184
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0008789822459220886
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: erview/runs/matrix_v2/C_method/seq-align-affine/trial4/verify/app/align.py\", line 50, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (n+1, m+1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0009934082627296448
+  }
+ ]
+}

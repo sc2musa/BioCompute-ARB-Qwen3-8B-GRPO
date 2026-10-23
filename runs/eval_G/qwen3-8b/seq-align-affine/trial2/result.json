@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 2,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-ebca046dcdd6f09d",
+ "reward": 0,
+ "score": 0.25757575757575757,
+ "agent_seconds": 695.2,
+ "agent": {
+  "turns": 17,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 333896,
+  "completion_tokens": 67596,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 3,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 695.2,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.25757575757575757,
+  "n_pass": 17,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.265625,
+  "perf_seconds": [
+   2.3104053280549124,
+   2.7060765760252252
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -9223372036854775807 != optimal -8",
+    "seconds": 1.858698669821024e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -9223372036854775807 != optimal -11",
+    "seconds": 9.306007996201515e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -31 != optimal -38",
+    "seconds": 0.00010887696407735348
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.00014188396744430065
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 12 != optimal 15",
+    "seconds": 0.00016631395556032658
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.018557550036348403
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "local alignment is not a pair of substrings",
+    "seconds": 0.01064808398950845
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.005741300992667675
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "local alignment is not a pair of substrings",
+    "seconds": 0.041266983025707304
+   },
+   {
+    "id": "rand4_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.00874073791783303
+   }
+  ],
+  "verifier_seconds": 6.6
+ }
+}

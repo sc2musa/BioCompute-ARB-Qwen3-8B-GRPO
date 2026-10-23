@@ -1,0 +1,223 @@
+{
+ "pass": false,
+ "score": 0.07638888888888888,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.16666666666666666,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.08333333333333333
+ },
+ "total_seconds": 12.593741352902725,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.6398108470020816,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.5408360310610428,
+    "R_post": 0.6745077570764885,
+    "forecast_rmae": 0.22396604503826753
+   },
+   "pass": false,
+   "score": 0.3333333333333333
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 1.1336354840314016,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 2.178902451078993,
+    "R_post": 0.3188203878846636,
+    "change_day": 48.99999566960209,
+    "forecast_rmae": 2.6632858559219668
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.47798178694210947,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.6320107676496829,
+    "R_post": 0.5146207976061563,
+    "change_day": 4.999999988632858,
+    "forecast_rmae": 1.2216728181292429
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.6698187799192965,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.6248737973342968,
+    "R_post": 0.6477431441004764,
+    "forecast_rmae": 0.34165599874044444
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 3.012238185037859,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.568717512031045,
+    "R_post": 0.3437905344847889,
+    "change_day": 44.9999998354799,
+    "forecast_rmae": 0.6702209318202308
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.08328135497868061,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.3165894876810764,
+    "R_post": 0.3306624404391767,
+    "change_day": null,
+    "forecast_rmae": 6.610971800287761
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.06690468906890601,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.3565447706519772,
+    "R_post": 0.3617002262812937,
+    "change_day": null,
+    "forecast_rmae": 4.862371065711856
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.10906125302426517,
+   "criteria": {
+    "R0": true,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.035448276704242554,
+    "R_post": 0.3938624947107525,
+    "forecast_rmae": 0.8287058958606427
+   },
+   "pass": false,
+   "score": 0.3333333333333333
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.12823574093636125,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.10448634154620196,
+    "R_post": 0.1595968529153129,
+    "change_day": null,
+    "forecast_rmae": 18.962045397521923
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 6.124963792972267,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.4998814206650981,
+    "R_post": 0.30972847570670714,
+    "forecast_rmae": 0.9781346739916089
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.08119588298723102,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.35778310546389813,
+    "R_post": 0.44803159481710586,
+    "change_day": null,
+    "forecast_rmae": 2.0022332870513893
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0666135560022667,
+   "criteria": {
+    "R0": true,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.010979469868007463,
+    "R_post": 0.307917173859136,
+    "change_day": null,
+    "forecast_rmae": 13.349085118290658
+   },
+   "pass": false,
+   "score": 0.25
+  }
+ ]
+}

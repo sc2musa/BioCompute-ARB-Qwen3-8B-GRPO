@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.24242424242424243,
+ "n_pass": 16,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.25,
+ "perf_seconds": [
+  2.4359680749475956,
+  2.404736810014583
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "score 0 != optimal -8",
+   "seconds": 2.3636966943740845e-05
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score 0 != optimal -11",
+   "seconds": 9.823008440434933e-06
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score 0 != optimal -3",
+   "seconds": 1.0259915143251419e-05
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score 0 != optimal -38",
+   "seconds": 0.00011174404062330723
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "score 12 != optimal -1",
+   "seconds": 0.00014548003673553467
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "score 12 != optimal 15",
+   "seconds": 0.0001481079962104559
+  },
+  {
+   "id": "rand0_global",
+   "pass": false,
+   "reason": "error: *kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial8/verify/app/align.py\", line 42, in align\n    aligned_b.append(seq_b[j-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.022534610936418176
+  },
+  {
+   "id": "rand1_local",
+   "pass": false,
+   "reason": "error: *kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial8/verify/app/align.py\", line 42, in align\n    aligned_b.append(seq_b[j-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.010839476948603988
+  },
+  {
+   "id": "rand2_global",
+   "pass": false,
+   "reason": "error: *kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial8/verify/app/align.py\", line 42, in align\n    aligned_b.append(seq_b[j-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.007572964997962117
+  },
+  {
+   "id": "rand3_local",
+   "pass": false,
+   "reason": "score 182 != optimal 384",
+   "seconds": 0.04313892894424498
+  }
+ ]
+}

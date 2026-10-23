@@ -1,0 +1,192 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 8,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-e4bdac3aaab438a8",
+ "reward": 0,
+ "score": 0.4166666666666667,
+ "agent_seconds": 1806.2,
+ "agent": {
+  "turns": 8,
+  "tool_calls": 7,
+  "tool_errors": 0,
+  "prompt_tokens": 121127,
+  "completion_tokens": 24555,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 1806.2,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.4166666666666667,
+  "n_pass": 4,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 1.0,
+   "R_post": 0.6666666666666666,
+   "change_day": 1.0,
+   "forecast": 0.8333333333333334
+  },
+  "total_seconds": 750.7623773842352,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 5.6750886720838025,
+    "criteria": {
+     "R0": true,
+     "R_post": false,
+     "forecast": true
+    },
+    "errors": {
+     "R0": 0.005284716354932328,
+     "R_post": 0.19536677995612084,
+     "forecast_rmae": 0.09775805053907116
+    },
+    "pass": false,
+    "score": 0.6666666666666666
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 7.837554877041839,
+    "criteria": {
+     "R0": true,
+     "R_post": true,
+     "change_day": true,
+     "forecast": true
+    },
+    "errors": {
+     "R0": 0.01948728463938665,
+     "R_post": 0.0015118115984988911,
+     "change_day": 2.0,
+     "forecast_rmae": 0.0051955285921231505
+    },
+    "pass": true,
+    "score": 1.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 6.333509927033447,
+    "criteria": {
+     "R0": true,
+     "R_post": true,
+     "change_day": true,
+     "forecast": true
+    },
+    "errors": {
+     "R0": 0.013762101539304794,
+     "R_post": 0.05608293520662633,
+     "change_day": 2.0,
+     "forecast_rmae": 0.023280217468099586
+    },
+    "pass": true,
+    "score": 1.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 4.068858130951412,
+    "criteria": {
+     "R0": true,
+     "R_post": true,
+     "change_day": true,
+     "forecast": true
+    },
+    "errors": {
+     "R0": 0.02786758474991724,
+     "R_post": 0.024135193316766057,
+     "change_day": 0.0,
+     "forecast_rmae": 0.07513739552895282
+    },
+    "pass": true,
+    "score": 1.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 3.8123515780316666,
+    "criteria": {
+     "R0": true,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.052151245576380956,
+     "R_post": 0.41659960073489966,
+     "forecast_rmae": 0.6577733554237002
+    },
+    "pass": false,
+    "score": 0.3333333333333333
+   },
+   {
+    "id": "outbreak10",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 3.035014199092984,
+    "criteria": {
+     "R0": true,
+     "R_post": true,
+     "change_day": true,
+     "forecast": true
+    },
+    "errors": {
+     "R0": 0.005443357085030742,
+     "R_post": 0.005900412337830563,
+     "change_day": 3.0,
+     "forecast_rmae": 0.037543038589628305
+    },
+    "pass": true,
+    "score": 1.0
+   }
+  ],
+  "verifier_seconds": 768.9
+ }
+}

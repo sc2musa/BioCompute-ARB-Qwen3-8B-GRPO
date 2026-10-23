@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 18,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-ad853b38b380ac82",
+ "reward": 0,
+ "score": 0.09090909090909091,
+ "agent_seconds": 59.4,
+ "agent": {
+  "turns": 18,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "prompt_tokens": 71928,
+  "completion_tokens": 6208,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 10,
+  "repeat_notes": 6,
+  "overflow_retries": 0,
+  "wall_seconds": 59.4,
+  "agent": "llm",
+  "model": "qwen3-8b-rl99",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.09090909090909091,
+  "n_pass": 6,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.09375,
+  "perf_seconds": [
+   3.6257691900245845,
+   3.676166908000596
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -20 != optimal -8",
+    "seconds": 2.7379021048545837e-05
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -20 != optimal 0",
+    "seconds": 9.23406332731247e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -21 != optimal -11",
+    "seconds": 9.416951797902584e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -21 != optimal 0",
+    "seconds": 7.753027603030205e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 1.019798219203949e-05
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score -3 != optimal 0",
+    "seconds": 9.599956683814526e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -40 != optimal -38",
+    "seconds": 0.00019680103287100792
+   },
+   {
+    "id": "edge6_local",
+    "pass": false,
+    "reason": "score -40 != optimal 0",
+    "seconds": 0.00019679695833474398
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score -18 != optimal -1",
+    "seconds": 0.0002373829483985901
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score -18 != optimal 15",
+    "seconds": 0.0002359130885452032
+   }
+  ],
+  "verifier_seconds": 9.8
+ }
+}

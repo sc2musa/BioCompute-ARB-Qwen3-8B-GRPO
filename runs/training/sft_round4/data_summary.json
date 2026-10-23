@@ -1,0 +1,1 @@
+{"instances": 380, "trajectories": 1264, "kept": 345, "kept_per_task": {"reaction-network-stiff": 244, "seir-changepoint-inference": 20, "seq-align-affine": 81}, "kept_per_guidance": {"method": 345}, "uncovered": 151, "samples": 871, "skipped_turns": 83, "not_target_turns": 132, "guidance_reference_turns": 732}

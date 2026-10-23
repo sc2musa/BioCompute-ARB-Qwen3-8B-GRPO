@@ -1,0 +1,161 @@
+# ROLL agentic RL with GRPO-style group baselines (no KL) on BioCompute-ARB training instances.
+# Same as rl_reinforcepp_biocompute.yaml (model, GPUs, async rollout, environment) except the
+# advantage: each training instance is attempted group_size=4 times and every turn's return is
+# normalised with the mean/std of its own group (traj_group_id) instead of the whole batch.
+# This is the agentic GRPO setup of ROLL's examples/agentic_demo (step_reinforce + traj_group_id
+# grouping). Motivation (REINFORCE++ run, docs/training.md): with a batch baseline over mixed
+# tasks the advantage mostly encoded "which task" (T1 ~always 0, T2 mostly solved); with group
+# baselines a group whose 4 attempts score the same (e.g. all-failed T1) gives zero advantage.
+#
+# Copied to $ROLL_DIR/examples/biocompute_rl/ by training/run_rl.sh; paths come from the environment:
+#   POLICY_MODEL, RL_OUT, REPO_DIR, TRAIN_TASKS, TRAIN_TASK_LIST, ENV_WORK_ROOT, RL_STEPS
+defaults:
+  - ../config/deepspeed_zero@_here_
+  - ../config/deepspeed_zero3_cpuoffload@_here_
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+exp_name: ${oc.env:EXP_NAME,biocompute-grpo-qwen3-8b}
+seed: 42
+logging_dir: ${oc.env:RL_OUT}/logs
+output_dir: ${oc.env:RL_OUT}
+system_envs:
+  USE_MODELSCOPE: '0'
+  DS_SKIP_CUDA_CHECK: '1'   # CPU Adam JIT build: host CUDA 12.9 vs torch cu128 (minor version only)
+track_with: stdout               # metrics as JSON lines ("metrics_tag:") in the log; no tensorboard in the env
+checkpoint_config:
+  type: file_system
+  output_dir: ${oc.env:RL_OUT}/checkpoints
+
+num_gpus_per_node: 8
+rpc_timeout: 72000
+max_steps: ${oc.decode:${oc.env:RL_STEPS,100}}
+save_steps: 10
+logging_steps: 1
+eval_steps: 0                    # evaluation is done separately with the benchmark harness
+resume_from_checkpoint: false
+
+# Rollout runs ahead by up to one step on separate GPUs: a batch takes the first finished episodes
+# (also ones started for the next step), so one slow episode (long check.py run, up to the 30-min
+# budget) no longer stalls the step; episodes older than one step are dropped.
+async_generation_ratio: 1
+parse_tool_call_parameter_to_dict: false   # keep JSON-string arguments as the harness stores them
+
+rollout_batch_size: 32           # trajectories per RL step = 8 groups x 4 attempts
+val_batch_size: 1
+sequence_length: 32768
+max_tokens_per_step: 4096        # = max_tokens of the evaluation harness (non-thinking)
+
+# --- GRPO (group baseline over 4 attempts of the same instance), no KL ---
+adv_estimator: "step_reinforce"
+step_reward_gamma: 1.0
+reward_normalization:
+  grouping: traj_group_id
+  norm_mean_type: group
+  norm_std_type: group
+whiten_advantages: false         # keep the group-normalised scale (no batch-wide re-centering)
+advantage_clip: ~
+ppo_epochs: 1
+init_kl_coef: 0.0
+use_kl_loss: false
+entropy_loss_coef: 0
+max_grad_norm: 1.0
+batch_adjust_mode: "random_sample"
+
+pretrain: ${oc.env:POLICY_MODEL}
+reward_pretrain: ${pretrain}
+
+actor_train:
+  model_args:
+    attn_implementation: fa2
+    disable_gradient_checkpointing: false
+    dtype: bf16
+    model_type: ~
+  training_args:
+    learning_rate: 1.0e-6
+    weight_decay: 0
+    per_device_train_batch_size: 1
+    gradient_accumulation_steps: 32
+    warmup_steps: 0
+    lr_scheduler_type: constant
+  data_args:
+    template: qwen3
+  strategy_args:
+    strategy_name: deepspeed_train
+    strategy_config: ${deepspeed_zero3_cpuoffload}
+  device_mapping: list(range(0,4))
+  infer_batch_size: 1
+  use_dynamic_batching_in_train: true
+  # Must be >= the longest single sample (ROLL asserts it); memory is handled by the chunked
+  # log-prob patch (training/roll_patches/patch_chunked_logprobs.py)
+  max_tokens_per_microbatch_in_train: 32768
+  sequence_length_round_in_train: 8
+  use_dynamic_batching_in_infer: true
+  max_tokens_per_microbatch_in_infer: 32768
+  sequence_length_round_in_infer: 8
+
+actor_infer:
+  model_args:
+    disable_gradient_checkpointing: true
+    dtype: bf16
+  generating_args:
+    max_new_tokens: ${max_tokens_per_step}
+    top_p: 1.0                   # sample from the policy itself (no truncation) for on-policy PG
+    top_k: -1
+    num_beams: 1
+    temperature: 1.0
+    num_return_sequences: 1
+  data_args:
+    template: qwen3
+  strategy_args:
+    strategy_name: vllm
+    strategy_config:
+      gpu_memory_utilization: 0.85
+      block_size: 16
+      load_format: auto
+      tensor_parallel_size: 1
+      max_model_len: 32768
+  device_mapping: list(range(4,8))
+
+# --- Environment ---
+max_actions_per_traj: 30         # = max_turns of the evaluation harness
+env_manager_cls: roll.pipeline.agentic.env_manager.agent_native_env_manager.AgentNativeStepEnvManager
+
+train_env_manager:
+  # 12 groups x 4 envs = 48 envs (as in the REINFORCE++ run); a step needs 8 complete groups,
+  # so up to 4 groups with a slow attempt do not block the batch. All envs of a group get the
+  # same seed, i.e. the same training instance.
+  max_env_num_per_worker: 16
+  num_env_groups: 12
+  group_size: 4
+  tags: [BioCompute]
+  num_groups_partition: [12]
+
+val_env_manager:
+  max_env_num_per_worker: 1
+  num_env_groups: 1
+  group_size: 1
+  tags: [BioCompute]
+  num_groups_partition: [1]
+
+custom_envs:
+  BioCompute:
+    env_type: biocompute
+    max_steps: ${max_actions_per_traj}
+    max_tokens_per_step: ${max_tokens_per_step}
+    env_manager_cls: ${env_manager_cls}
+    agent_system_template: "unused: the system prompt comes from harness/agent.py"
+    agent_template: "unused: observations are full message lists"
+    env_config:
+      repo_dir: ${oc.env:REPO_DIR}
+      tasks_root: ${oc.env:TRAIN_TASKS}
+      task_list: ${oc.env:TRAIN_TASK_LIST}
+      work_root: ${oc.env:ENV_WORK_ROOT}
+      episode_log: ${oc.env:RL_OUT}/episodes.jsonl
+      sandbox_user: agent
+      max_turns: ${max_actions_per_traj}
+      time_budget_sec: 1800
+      max_tokens: ${max_tokens_per_step}
+      solve_bonus: 0.5

@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 1,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-28300ea3930eaf93",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 54.4,
+ "agent": {
+  "turns": 15,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "prompt_tokens": 90541,
+  "completion_tokens": 1711,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 7,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 54.4,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": false,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.09052195399999619,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.004158444702625275,
+    "reason": "error: nt/$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'E' is not in list\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.035714998841285706,
+    "reason": "error: nt/$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'A' is not in list\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.014263108372688293,
+    "reason": "error: nt/$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'G' is not in list\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.006992921233177185,
+    "reason": "error: nt/$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'S' is not in list\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.01063750684261322,
+    "reason": "error: /$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'Sig' is not in list\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.009066104888916016,
+    "reason": "error: /$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'Sig' is not in list\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.00780467689037323,
+    "reason": "error: /$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'X10' is not in list\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0018841922283172607,
+    "reason": "error: /$PYENV/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: 'X13' is not in list\n"
+   }
+  ],
+  "verifier_seconds": 23.4
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

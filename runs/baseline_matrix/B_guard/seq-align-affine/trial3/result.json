@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 3,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-2271375c5a51f71f",
+ "reward": 0,
+ "score": 0.13636363636363635,
+ "agent_seconds": 140.5,
+ "agent": {
+  "turns": 9,
+  "tool_calls": 8,
+  "tool_errors": 0,
+  "prompt_tokens": 36134,
+  "completion_tokens": 5303,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 4,
+  "repeat_notes": 2,
+  "overflow_retries": 0,
+  "wall_seconds": 140.4,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.13636363636363635,
+  "n_pass": 9,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.140625,
+  "perf_seconds": [
+   2.6242673099040985,
+   2.959873728454113
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -16 != optimal -8",
+    "seconds": 3.781914710998535e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -22 != optimal -11",
+    "seconds": 1.014024019241333e-05
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "score 1 != optimal 8",
+    "seconds": 0.00010865181684494019
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "score 1 != optimal 8",
+    "seconds": 0.00013409554958343506
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -4 != optimal -38",
+    "seconds": 0.00014828890562057495
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 3 != optimal -1",
+    "seconds": 0.00018128007650375366
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 3 != optimal 15",
+    "seconds": 0.00021391361951828003
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score 2 != optimal 153",
+    "seconds": 0.024476684629917145
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 1 != optimal 42",
+    "seconds": 0.012988001108169556
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "score 5 != optimal 360",
+    "seconds": 0.008132487535476685
+   }
+  ],
+  "verifier_seconds": 7.7
+ }
+}

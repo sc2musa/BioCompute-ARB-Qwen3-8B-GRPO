@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 2.2029654200887308,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.13752308895345777,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.19621424691285938,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.19417142192833126,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.1925788080552593,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.19187026505824178,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.1355238980613649,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.18905708193778992,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.19271138706244528,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.19714298308826983,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.19161889201495796,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.1920231250114739,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.1925302220042795,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seir-changepoint-inference/trial13/verify/app/fit.py\", line 79, in fit\n    new_cases = beta[T-1] * S * (1 - np.exp(-beta[T-1] * L))\n                ^^^^\nNameError: name 'beta' is not defined\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

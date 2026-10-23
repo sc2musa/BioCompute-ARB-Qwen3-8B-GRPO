@@ -1,0 +1,190 @@
+{
+ "pass": false,
+ "score": 0.25,
+ "n_pass": 1,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.1111111111111111,
+  "R_post": 0.4444444444444444,
+  "change_day": 0.0,
+  "forecast": 0.5555555555555556
+ },
+ "total_seconds": 0.11555146088358015,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.01206979900598526,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.1146289057745099,
+    "R_post": 0.17193975579771748,
+    "forecast_rmae": 0.019862584575638415
+   },
+   "pass": false,
+   "score": 0.3333333333333333
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.02132136595901102,
+   "criteria": {
+    "R0": false,
+    "R_post": true,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.19618204889159174,
+    "R_post": 0.048160549780069895,
+    "change_day": 16.999999991152194,
+    "forecast_rmae": 0.4564578425395102
+   },
+   "pass": false,
+   "score": 0.25
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.013624622952193022,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.16161244248090711,
+    "R_post": 0.40937951687329244,
+    "change_day": 13.980350370797176,
+    "forecast_rmae": 0.352907753204512
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.010821274947375059,
+   "criteria": {
+    "R0": false,
+    "R_post": true,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.10606586197336354,
+    "R_post": 0.06007144907558393,
+    "forecast_rmae": 0.05770284131454875
+   },
+   "pass": false,
+   "score": 0.6666666666666666
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.019674501032568514,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.11157622859654381,
+    "R_post": 0.20374648568049714,
+    "change_day": null,
+    "forecast_rmae": 0.2031585327691676
+   },
+   "pass": false,
+   "score": 0.25
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0009428160265088081,
+   "error": " ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seir-changepoint-inference/trial16/verify/app/fit.py\", line 43, in fit\n    growth_rate = np.log(cases[t]/cases[0]) / t\n                         ~~~~~~~~^~~~~~~~~\nZeroDivisionError: division by zero\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0008800259092822671,
+   "error": " ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seir-changepoint-inference/trial16/verify/app/fit.py\", line 43, in fit\n    growth_rate = np.log(cases[t]/cases[0]) / t\n                         ~~~~~~~~^~~~~~~~~\nZeroDivisionError: division by zero\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.010250800987705588,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.13240873419204935,
+    "R_post": 0.11596520806828292,
+    "forecast_rmae": 0.45897678221567534
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.011299117002636194,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 0.23529755380144857,
+    "R_post": 1.468152684995395,
+    "change_day": null,
+    "forecast_rmae": 20.22307806336175
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0055190169950947165,
+   "criteria": {
+    "R0": true,
+    "R_post": true,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.08633267693306035,
+    "R_post": 0.08364797803315249,
+    "forecast_rmae": 0.16284664998473783
+   },
+   "pass": true,
+   "score": 1.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.00827586802188307,
+   "criteria": {
+    "R0": false,
+    "R_post": true,
+    "change_day": false,
+    "forecast": true
+   },
+   "errors": {
+    "R0": 0.33301068870360273,
+    "R_post": 0.032516125903861326,
+    "change_day": null,
+    "forecast_rmae": 0.10204984612245423
+   },
+   "pass": false,
+   "score": 0.5
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0008722520433366299,
+   "error": " ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seir-changepoint-inference/trial16/verify/app/fit.py\", line 43, in fit\n    growth_rate = np.log(cases[t]/cases[0]) / t\n                         ~~~~~~~~^~~~~~~~~\nZeroDivisionError: division by zero\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

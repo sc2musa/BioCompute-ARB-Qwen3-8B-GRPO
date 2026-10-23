@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 15,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-e8665c4609a32a9a",
+ "reward": 1,
+ "score": 1.0,
+ "agent_seconds": 16.4,
+ "agent": {
+  "turns": 11,
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "prompt_tokens": 79359,
+  "completion_tokens": 1637,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 16.3,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": true,
+  "score": 1.0,
+  "n_pass": 8,
+  "n_cases": 8,
+  "total_seconds": 2.460952246794477,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": true,
+    "max_scaled_error": 1.03939168806689e-07,
+    "seconds": 0.13454939296934754,
+    "reason": "ok"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": true,
+    "max_scaled_error": 1.8601868377742912e-06,
+    "seconds": 0.11284091603010893,
+    "reason": "ok"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 1.0028019825746051e-07,
+    "seconds": 0.16899364592973143,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 1.806422087151078e-07,
+    "seconds": 0.06230630201753229,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 4.6865975142260434e-08,
+    "seconds": 0.1607929898891598,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 7.554577561396603e-08,
+    "seconds": 0.15790921705774963,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 8.823865287034392e-08,
+    "seconds": 0.3555741069139913,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 3.5975217680613426e-07,
+    "seconds": 1.3079856759868562,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 8.5
+ }
+}

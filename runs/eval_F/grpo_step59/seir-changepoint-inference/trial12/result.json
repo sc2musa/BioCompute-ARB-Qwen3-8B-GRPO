@@ -1,0 +1,254 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 12,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-11d8107dea0e79ee",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 37.7,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 26,
+  "tool_errors": 0,
+  "prompt_tokens": 127445,
+  "completion_tokens": 3320,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 6,
+  "repeat_notes": 2,
+  "overflow_retries": 0,
+  "wall_seconds": 37.6,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.20966792479157448,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.013761493959464133,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.012628628988750279,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.0186029439792037,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.017590036033652723,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.018961320980452,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.01635411800816655,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.016207688953727484,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.02013393398374319,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 0.017764637945219874,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 0.02066408295650035,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.01800793199799955,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.01899110700469464,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.0,
+     "R_post": 1.0,
+     "change_day": null,
+     "forecast_rmae": 1.0
+    },
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 8.3
+ }
+}

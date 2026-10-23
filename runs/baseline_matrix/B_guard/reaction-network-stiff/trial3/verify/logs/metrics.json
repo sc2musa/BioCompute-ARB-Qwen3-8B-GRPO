@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 8,
+ "total_seconds": 4.267499104142189,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": 1001.000354741798,
+   "seconds": 0.027569472789764404,
+   "reason": "max scaled error 1.00e+03 > 1e-04"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": 0.044709631250905865,
+   "seconds": 0.027821138501167297,
+   "reason": "max scaled error 4.47e-02 > 1e-04"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": 0.00042542611009701827,
+   "seconds": 0.13004056364297867,
+   "reason": "max scaled error 4.25e-04 > 1e-04"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": false,
+   "max_scaled_error": 0.002963777850287215,
+   "seconds": 0.004740111529827118,
+   "reason": "max scaled error 2.96e-03 > 1e-04"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": 0.0007358386308549475,
+   "seconds": 0.13479724526405334,
+   "reason": "max scaled error 7.36e-04 > 1e-04"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": 0.00039566876417037916,
+   "seconds": 0.3897639140486717,
+   "reason": "max scaled error 3.96e-04 > 1e-04"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": 0.0014556110085656752,
+   "seconds": 0.5166357606649399,
+   "reason": "max scaled error 1.46e-03 > 1e-04"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": 0.0021818294789430668,
+   "seconds": 3.0361308977007866,
+   "reason": "max scaled error 2.18e-03 > 1e-04"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.11396999657154083,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0016491115093231201,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.015204720199108124,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.01640530675649643,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.00921051949262619,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0011180117726325989,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0025716200470924377,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0010482743382453918,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.012143179774284363,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.014360405504703522,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.032811276614665985,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.006349816918373108,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.001097753643989563,
+   "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

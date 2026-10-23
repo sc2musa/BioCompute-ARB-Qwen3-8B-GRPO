@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.06984961777925491,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.011686772108078003,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.006147757172584534,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0022941306233406067,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0018509700894355774,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0018635764718055725,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.016474716365337372,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.008183330297470093,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.00536540150642395,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0019168928265571594,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0020564794540405273,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.002658940851688385,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.009350650012493134,
+   "error": "vs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 1027, in minimize_scalar\n    res = _minimize_scalar_bounded(fun, bounds, args, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'float' and 'NoneType'\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 0,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-96f7e5aa147c13cb",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 26.5,
+ "agent": {
+  "turns": 9,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "prompt_tokens": 29261,
+  "completion_tokens": 1754,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 5,
+  "repeat_notes": 4,
+  "overflow_retries": 0,
+  "wall_seconds": 26.4,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   8.556533642113209,
+   9.851696945726871
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+    "seconds": 0.002376854419708252
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+    "seconds": 0.0005051568150520325
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+    "seconds": 0.000946730375289917
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+    "seconds": 0.0003749355673789978
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+    "seconds": 0.0008243322372436523
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+    "seconds": 0.00030775368213653564
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+    "seconds": 0.0009910687804222107
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+    "seconds": 0.0004069581627845764
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+    "seconds": 0.0008232295513153076
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+    "seconds": 0.00031957775354385376
+   }
+  ],
+  "verifier_seconds": 23.0
+ }
+}

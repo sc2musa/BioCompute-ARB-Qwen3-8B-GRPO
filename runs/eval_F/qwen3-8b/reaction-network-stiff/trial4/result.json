@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 4,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-f2cb8949a6e7cd57",
+ "reward": 0,
+ "score": 0.75,
+ "agent_seconds": 65.3,
+ "agent": {
+  "turns": 16,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 112195,
+  "completion_tokens": 3872,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 65.3,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.75,
+  "n_pass": 6,
+  "n_cases": 8,
+  "total_seconds": 1.1242425920208916,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": 0.00013743286442993667,
+    "seconds": 0.008659080020152032,
+    "reason": "max scaled error 1.37e-04 > 1e-04"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": 0.0024166182266544597,
+    "seconds": 0.013207593001425266,
+    "reason": "max scaled error 2.42e-03 > 1e-04"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 7.413037627193718e-06,
+    "seconds": 0.03315075801219791,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 4.8650073159183374e-08,
+    "seconds": 0.004251749953255057,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 5.6517234541421255e-06,
+    "seconds": 0.04528675402980298,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 7.841469906714177e-06,
+    "seconds": 0.04912464297376573,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 1.952007087833938e-06,
+    "seconds": 0.12838559097144753,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 3.4298163081192504e-06,
+    "seconds": 0.8421764230588451,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 7.3
+ }
+}

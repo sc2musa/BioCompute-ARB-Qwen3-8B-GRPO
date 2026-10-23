@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 4,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-a9f16adcd4c8117b",
+ "reward": 0,
+ "score": 0.25757575757575757,
+ "agent_seconds": 344.3,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "prompt_tokens": 167437,
+  "completion_tokens": 35931,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 344.3,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.25757575757575757,
+  "n_pass": 17,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.265625,
+  "perf_seconds": [
+   2.141488634981215,
+   2.459298392990604
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 3.833603113889694e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 9.575043804943562e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -22 != optimal -38",
+    "seconds": 0.00011109409388154745
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 9 != optimal -1",
+    "seconds": 0.0001370040699839592
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 0.00014502904377877712
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.017134151072241366
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "local alignment is not a pair of substrings",
+    "seconds": 0.00943506695330143
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.005239450023509562
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "local alignment is not a pair of substrings",
+    "seconds": 0.039710139972157776
+   },
+   {
+    "id": "rand4_global",
+    "pass": false,
+    "reason": "score 114 != optimal 106",
+    "seconds": 0.008171659079380333
+   }
+  ],
+  "verifier_seconds": 6.0
+ }
+}

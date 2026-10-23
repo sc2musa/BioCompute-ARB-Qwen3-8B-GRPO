@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.13302362710237503,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0023228973150253296,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.011249415576457977,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.022587329149246216,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.012052364647388458,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.017422541975975037,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0014905557036399841,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.03495164215564728,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.005458533763885498,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.007860653102397919,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0021611303091049194,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.00195370614528656,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.013512857258319855,
+   "error": "ib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: slice indices must be integers or None or have an __index__ method\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

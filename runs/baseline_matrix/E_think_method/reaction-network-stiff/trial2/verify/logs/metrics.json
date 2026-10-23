@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.125,
+ "n_pass": 1,
+ "n_cases": 8,
+ "total_seconds": 420.1296480745077,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": true,
+   "max_scaled_error": 1.1045316801503316e-07,
+   "seconds": 0.12964807450771332,
+   "reason": "ok"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  }
+ ]
+}

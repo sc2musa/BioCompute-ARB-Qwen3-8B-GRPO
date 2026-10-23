@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 6,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-c5a27b3be43ad536",
+ "reward": 1,
+ "score": 1.0,
+ "agent_seconds": 18.9,
+ "agent": {
+  "turns": 9,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "prompt_tokens": 74905,
+  "completion_tokens": 1461,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 18.6,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo40",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": true,
+  "score": 1.0,
+  "n_pass": 8,
+  "n_cases": 8,
+  "total_seconds": 3.913804927957244,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": true,
+    "max_scaled_error": 1.03939168806689e-07,
+    "seconds": 0.13586614397354424,
+    "reason": "ok"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": true,
+    "max_scaled_error": 1.8601868377742912e-06,
+    "seconds": 0.11423518403898925,
+    "reason": "ok"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 1.0028019825746051e-07,
+    "seconds": 0.17264141095802188,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 1.806422087151078e-07,
+    "seconds": 0.06458795000799,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 4.6865975142260434e-08,
+    "seconds": 0.18850951292552054,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 7.554577561396603e-08,
+    "seconds": 0.20673546090256423,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 8.823865287034392e-08,
+    "seconds": 0.39250218006782234,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 3.5975217680613426e-07,
+    "seconds": 2.6387270850827917,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 10.4
+ }
+}

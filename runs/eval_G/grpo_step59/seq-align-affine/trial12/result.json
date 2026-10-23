@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 12,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-ea1dc35b9bcc6cfe",
+ "reward": 0,
+ "score": 0.09090909090909091,
+ "agent_seconds": 156.4,
+ "agent": {
+  "turns": 11,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 159929,
+  "completion_tokens": 16163,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 156.4,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.09090909090909091,
+  "n_pass": 6,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.09375,
+  "perf_seconds": [
+   3.4571487170178443,
+   3.452040213975124
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -20 != optimal -8",
+    "seconds": 2.609298098832369e-05
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -20 != optimal 0",
+    "seconds": 8.555012755095959e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -21 != optimal -11",
+    "seconds": 8.546048775315285e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -21 != optimal 0",
+    "seconds": 6.139976903796196e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 9.123003110289574e-06
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score -3 != optimal 0",
+    "seconds": 8.660019375383854e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -40 != optimal -38",
+    "seconds": 0.0001732039963826537
+   },
+   {
+    "id": "edge6_local",
+    "pass": false,
+    "reason": "score -40 != optimal 0",
+    "seconds": 0.00016900303307920694
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score -107 != optimal -1",
+    "seconds": 0.00022384210024029016
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score -107 != optimal 15",
+    "seconds": 0.0002162110758945346
+   }
+  ],
+  "verifier_seconds": 9.1
+ }
+}

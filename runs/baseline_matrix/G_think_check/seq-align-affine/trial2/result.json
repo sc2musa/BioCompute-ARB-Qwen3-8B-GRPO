@@ -1,0 +1,103 @@
+{
+ "task": "seq-align-affine",
+ "trial": 2,
+ "task_digest": "65c40a4f3630abf0",
+ "workspace": "app-ab2daf271c940d86",
+ "reward": 0,
+ "score": 0.12121212121212122,
+ "agent_seconds": 338.6,
+ "agent": {
+  "turns": 3,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 30354,
+  "completion_tokens": 14522,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 338.6,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.12121212121212122,
+  "n_pass": 8,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.125,
+  "perf_seconds": [
+   5.625851772725582,
+   4.253275290131569
+  ],
+  "failures": [
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.021784938871860504
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0009231716394424438
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 80, in backtrack\n    score = mismatch\n            ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+    "seconds": 0.0013678744435310364
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0008888766169548035
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0008926317095756531
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 80, in backtrack\n    score = mismatch\n            ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+    "seconds": 0.0014410912990570068
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0009309053421020508
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0009389817714691162
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.04665760695934296
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial2/verify/app/align.py\", line 78, in backtrack\n    score = match\n            ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.024801529943943024
+   }
+  ],
+  "verifier_seconds": 14.4
+ }
+}

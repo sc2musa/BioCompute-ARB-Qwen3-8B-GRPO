@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.125,
+ "n_pass": 1,
+ "n_cases": 8,
+ "total_seconds": 120.5289668738842,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.019492410123348236,
+   "reason": "error:  61, in simulate\n    sol = solve_ivp(\n          ^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: array must not contain infs or NaNs\n"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.01868734508752823,
+   "reason": "error:  61, in simulate\n    sol = solve_ivp(\n          ^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: array must not contain infs or NaNs\n"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.023862600326538086,
+   "reason": "error:  61, in simulate\n    sol = solve_ivp(\n          ^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: array must not contain infs or NaNs\n"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": true,
+   "max_scaled_error": 1.1045316801503316e-07,
+   "seconds": 0.4281498119235039,
+   "reason": "ok"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.02236425131559372,
+   "reason": "error:  61, in simulate\n    sol = solve_ivp(\n          ^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: array must not contain infs or NaNs\n"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.016410455107688904,
+   "reason": "error:  61, in simulate\n    sol = solve_ivp(\n          ^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: array must not contain infs or NaNs\n"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": null,
+   "reason": "error: timeout after 60s"
+  }
+ ]
+}

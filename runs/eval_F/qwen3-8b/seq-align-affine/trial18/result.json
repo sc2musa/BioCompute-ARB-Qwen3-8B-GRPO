@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 18,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-20eebf7b4d1e41d6",
+ "reward": 0,
+ "score": 0.030303030303030304,
+ "agent_seconds": 111.6,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 19,
+  "tool_errors": 0,
+  "prompt_tokens": 148012,
+  "completion_tokens": 8009,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 12,
+  "repeat_notes": 11,
+  "overflow_retries": 0,
+  "wall_seconds": 111.6,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.030303030303030304,
+  "n_pass": 2,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.03125,
+  "perf_seconds": [
+   3.0887609740020707,
+   3.0945038460195065
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 3.0739465728402138e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.8869759514927864e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 2.411077730357647e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.911073923110962e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "score 6 != optimal 3",
+    "seconds": 4.043302033096552e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "score 6 != optimal 3",
+    "seconds": 1.4072982594370842e-05
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "score -1 != optimal -3",
+    "seconds": 9.518931619822979e-06
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score -1 != optimal 0",
+    "seconds": 8.062925189733505e-06
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "score 10 != optimal 8",
+    "seconds": 0.00011212704703211784
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "score 10 != optimal 8",
+    "seconds": 0.00010269798804074526
+   }
+  ],
+  "verifier_seconds": 8.4
+ }
+}

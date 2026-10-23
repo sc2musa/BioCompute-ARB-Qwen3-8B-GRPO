@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.07783579081296921,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.014880143105983734,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0022584274411201477,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0026090294122695923,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.011577025055885315,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0016671344637870789,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0025274455547332764,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.008266791701316833,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.005779176950454712,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0024119243025779724,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0016430467367172241,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.021936707198619843,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.002278938889503479,
+   "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 772, in minimize\n    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bad operand type for unary -: 'function'\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

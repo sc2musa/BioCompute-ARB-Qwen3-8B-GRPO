@@ -1,0 +1,225 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 1,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-8bc69153fcd71cab",
+ "reward": 0,
+ "score": 0.20138888888888887,
+ "agent_seconds": 883.7,
+ "agent": {
+  "turns": 22,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "prompt_tokens": 286615,
+  "completion_tokens": 39941,
+  "submitted": false,
+  "stop_reason": "api_error: BadRequestError: Error code: 400 - {'error': {'message': \"'max_tokens' or 'max_completion_tokens' is too large: 4096. This model's maximum context length is 40960 tokens and your request has 37680 input tokens (4096 > 40960 - 37680). None\", 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+  "repeated_calls": 3,
+  "repeat_notes": 5,
+  "overflow_retries": 2,
+  "wall_seconds": 883.6,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.20138888888888887,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.2222222222222222,
+   "R_post": 0.4444444444444444,
+   "change_day": 0.42857142857142855,
+   "forecast": 0.0
+  },
+  "total_seconds": 242.64579612284433,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.17708780791144818,
+    "criteria": {
+     "R0": true,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.05585557641247729,
+     "R_post": 0.3780716396234596,
+     "forecast_rmae": 0.9995349450877332
+    },
+    "pass": false,
+    "score": 0.3333333333333333
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.20230058999732137,
+    "criteria": {
+     "R0": false,
+     "R_post": true,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.15923915042027126,
+     "R_post": 0.07948237758664256,
+     "change_day": 1.0,
+     "forecast_rmae": 0.9994042536284502
+    },
+    "pass": false,
+    "score": 0.5
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.2120717909419909,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.1517651960418901,
+     "R_post": 0.5323140769537292,
+     "change_day": 2.0,
+     "forecast_rmae": 0.9972164476940637
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.1614733210299164,
+    "criteria": {
+     "R0": true,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.08671659304909951,
+     "R_post": 0.33556195568103775,
+     "forecast_rmae": 0.9971342957110515
+    },
+    "pass": false,
+    "score": 0.3333333333333333
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.06197661207988858,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 1.788626548203661,
+     "R_post": 0.4678108821530822,
+     "change_day": 3.0,
+     "forecast_rmae": 0.9579456938949766
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.21743673097807914,
+    "criteria": {
+     "R0": false,
+     "R_post": true,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.28441846518969016,
+     "R_post": 0.08211425631953573,
+     "change_day": 17.0,
+     "forecast_rmae": 0.9975192457107684
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.3696307699428871,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.3370474131427672,
+     "R_post": 0.14216977677842269,
+     "change_day": 19.0,
+     "forecast_rmae": 0.9949519005343723
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.8770212839590386,
+    "error": "$PYENV/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 784, in minimize\n    res = _minimize_lbfgsb(fun, x0, args, jac, bounds,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: operands could not be broadcast together with shapes (70,) (51,) \n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": null,
+    "error": "timeout after 120s",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.15189912100322545,
+    "criteria": {
+     "R0": false,
+     "R_post": true,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.38048243758270983,
+     "R_post": 0.01833167239967226,
+     "change_day": 28.0,
+     "forecast_rmae": 0.9904970943768124
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.21489809500053525,
+    "criteria": {
+     "R0": false,
+     "R_post": true,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.2790089553916818,
+     "R_post": 0.027500914112079444,
+     "change_day": 7.0,
+     "forecast_rmae": 0.9000175392108782
+    },
+    "pass": false,
+    "score": 0.25
+   }
+  ],
+  "verifier_seconds": 251.5
+ }
+}

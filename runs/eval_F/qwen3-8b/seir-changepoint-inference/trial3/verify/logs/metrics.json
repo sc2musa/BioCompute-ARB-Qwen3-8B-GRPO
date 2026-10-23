@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.12704336002934724,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.010139977093786001,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.009848574991337955,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.010778244934044778,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 30 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.012029564008116722,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 29 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.012996732955798507,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.011881395010277629,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.009350255015306175,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.00944876205176115,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.010167240048758686,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.011138357920572162,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.01019426598213613,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 29 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.009069990017451346,
+   "error": "^^^^\n  File \"$ROOT/runs/eval_round3/base/seir-changepoint-inference/trial3/verify/app/fit.py\", line 29, in seir_model\n    sol = solve_ivp(lambda t, y: [\n          ^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 28 is out of bounds for axis 0 with size 28\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

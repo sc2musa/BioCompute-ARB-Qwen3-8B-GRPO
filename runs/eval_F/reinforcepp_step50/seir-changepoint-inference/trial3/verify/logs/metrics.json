@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.03863572969567031,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0036108989734202623,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0029403279768303037,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0031795050017535686,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0032857739133760333,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.003588148974813521,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.003386723925359547,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.002964826999232173,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0029450219590216875,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.003257376025430858,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.003475768957287073,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0030360519886016846,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0029653050005435944,
+   "error": "            ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial3/verify/app/fit.py\", line 42, in fit\n    new_cases[d] = I[d+1] - I[d]\n                   ~^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

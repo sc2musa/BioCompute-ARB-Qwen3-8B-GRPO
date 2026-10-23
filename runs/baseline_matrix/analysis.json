@@ -1,0 +1,3770 @@
+[
+ {
+  "config": "A_raw",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 5,
+   "tool_calls": 5,
+   "tool_errors": 0,
+   "prompt_tokens": 8418,
+   "completion_tokens": 549,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 18.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 13,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 15,
+   "tool_calls": 15,
+   "tool_errors": 0,
+   "prompt_tokens": 90541,
+   "completion_tokens": 1711,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 54.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.625,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 75328,
+   "completion_tokens": 1283,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 40.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.5,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 11,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 13,
+   "tool_calls": 13,
+   "tool_errors": 0,
+   "prompt_tokens": 84820,
+   "completion_tokens": 1584,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 49.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 5,
+   "tool_calls": 5,
+   "tool_errors": 0,
+   "prompt_tokens": 8292,
+   "completion_tokens": 512,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 17.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "stuck in repetition loop",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 34,
+   "empty_runs": 1,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 130849,
+   "completion_tokens": 2290,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 31,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 103.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.23611111111111108,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 14,
+   "empty_runs": 1,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 32,
+   "tool_calls": 25,
+   "tool_errors": 0,
+   "prompt_tokens": 257155,
+   "completion_tokens": 13662,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 15,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 231.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 41897,
+   "completion_tokens": 1891,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 54.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.21527777777777776,
+  "mode": "stuck in repetition loop",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 18,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 25,
+   "tool_errors": 0,
+   "prompt_tokens": 167366,
+   "completion_tokens": 4368,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 17,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 97.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "stuck in repetition loop",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 34,
+   "empty_runs": 1,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 131183,
+   "completion_tokens": 2329,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 31,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 87.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.30303030303030304,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 3,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 6,
+   "tool_calls": 6,
+   "tool_errors": 0,
+   "prompt_tokens": 15023,
+   "completion_tokens": 1362,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 20.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.22727272727272727,
+  "mode": "stuck in repetition loop",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 17,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 33,
+   "tool_errors": 0,
+   "prompt_tokens": 273993,
+   "completion_tokens": 16002,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 20,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 284.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 3,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 11,
+   "tool_errors": 0,
+   "prompt_tokens": 139002,
+   "completion_tokens": 14262,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 216.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.06060606060606061,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 5,
+   "empty_runs": 5,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 26844,
+   "completion_tokens": 2553,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 4,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 69.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "A_raw",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 3,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 6,
+   "tool_calls": 6,
+   "tool_errors": 0,
+   "prompt_tokens": 16627,
+   "completion_tokens": 1769,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 25.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": false,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "stuck in repetition loop",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 39,
+   "empty_runs": 34,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 217812,
+   "completion_tokens": 3464,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 33,
+   "repeat_notes": 32,
+   "overflow_retries": 0,
+   "wall_seconds": 117.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 9,
+   "empty_runs": 9,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 12,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 25575,
+   "completion_tokens": 1153,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 8,
+   "repeat_notes": 7,
+   "overflow_retries": 0,
+   "wall_seconds": 40.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "stuck in repetition loop",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 39,
+   "empty_runs": 34,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 218984,
+   "completion_tokens": 3638,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 33,
+   "repeat_notes": 32,
+   "overflow_retries": 0,
+   "wall_seconds": 120.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 11,
+   "tool_calls": 11,
+   "tool_errors": 0,
+   "prompt_tokens": 21399,
+   "completion_tokens": 807,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 29.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 7,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 21790,
+   "completion_tokens": 788,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 5,
+   "overflow_retries": 0,
+   "wall_seconds": 27.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 15,
+   "tool_calls": 14,
+   "tool_errors": 0,
+   "prompt_tokens": 78746,
+   "completion_tokens": 4229,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 4,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 109.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 4,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 16,
+   "tool_calls": 16,
+   "tool_errors": 0,
+   "prompt_tokens": 71917,
+   "completion_tokens": 4476,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 117.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 19,
+   "empty_runs": 1,
+   "silent_submit": false,
+   "truncated": 5,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 27,
+   "tool_calls": 22,
+   "tool_errors": 0,
+   "prompt_tokens": 260263,
+   "completion_tokens": 23255,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 5,
+   "overflow_retries": 0,
+   "wall_seconds": 347.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 12,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 65909,
+   "completion_tokens": 4330,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 114.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 11,
+   "empty_runs": 10,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 17,
+   "tool_calls": 17,
+   "tool_errors": 0,
+   "prompt_tokens": 62631,
+   "completion_tokens": 1553,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 8,
+   "repeat_notes": 7,
+   "overflow_retries": 0,
+   "wall_seconds": 40.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.2727272727272727,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 27,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 29,
+   "tool_calls": 29,
+   "tool_errors": 0,
+   "prompt_tokens": 121527,
+   "completion_tokens": 3018,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 14,
+   "repeat_notes": 3,
+   "overflow_retries": 0,
+   "wall_seconds": 97.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 28997,
+   "completion_tokens": 2069,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 57.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.22727272727272727,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 21944,
+   "completion_tokens": 1261,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 37.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.13636363636363635,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 4,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 8,
+   "tool_errors": 0,
+   "prompt_tokens": 36134,
+   "completion_tokens": 5303,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 4,
+   "repeat_notes": 2,
+   "overflow_retries": 0,
+   "wall_seconds": 140.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "B_guard",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.09090909090909091,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 7,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 20101,
+   "completion_tokens": 1344,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 5,
+   "overflow_retries": 0,
+   "wall_seconds": 41.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 7,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 22599,
+   "completion_tokens": 987,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 5,
+   "overflow_retries": 0,
+   "wall_seconds": 33.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 25551,
+   "completion_tokens": 1077,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 36.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 25659,
+   "completion_tokens": 1095,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 37.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 23989,
+   "completion_tokens": 830,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 29.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 25725,
+   "completion_tokens": 1106,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 37.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 12,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 14,
+   "tool_errors": 0,
+   "prompt_tokens": 68793,
+   "completion_tokens": 2215,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 41.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 28,
+   "empty_runs": 23,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 29,
+   "tool_calls": 29,
+   "tool_errors": 0,
+   "prompt_tokens": 148770,
+   "completion_tokens": 3966,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 19,
+   "repeat_notes": 18,
+   "overflow_retries": 0,
+   "wall_seconds": 84.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 12,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 17,
+   "tool_calls": 14,
+   "tool_errors": 0,
+   "prompt_tokens": 83950,
+   "completion_tokens": 2864,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 82.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 3,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 49611,
+   "completion_tokens": 2122,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 61.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 12,
+   "empty_runs": 8,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 14,
+   "tool_errors": 0,
+   "prompt_tokens": 69315,
+   "completion_tokens": 2274,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 6,
+   "overflow_retries": 0,
+   "wall_seconds": 68.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 29261,
+   "completion_tokens": 1754,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 26.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.045454545454545456,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 24266,
+   "completion_tokens": 926,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 28.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.015151515151515152,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 26021,
+   "completion_tokens": 1207,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 36.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.015151515151515152,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 24401,
+   "completion_tokens": 935,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 28.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "C_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.07575757575757576,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 9,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 26474,
+   "completion_tokens": 1278,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 38.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 4623,
+   "completion_tokens": 7868,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 121.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 4610,
+   "completion_tokens": 7341,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 184.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.5,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 4817,
+   "completion_tokens": 12366,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 187.6,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.75,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 4790,
+   "completion_tokens": 8249,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 204.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 2,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 3049,
+   "completion_tokens": 6601,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 163.6,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.6805555555555555,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 32230,
+   "completion_tokens": 9873,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 154.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21443,
+   "completion_tokens": 11827,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 180.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21461,
+   "completion_tokens": 9880,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 151.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 34763,
+   "completion_tokens": 14088,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 212.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 5,
+   "tool_calls": 4,
+   "tool_errors": 0,
+   "prompt_tokens": 44098,
+   "completion_tokens": 17670,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 252.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.06060606060606061,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 5,
+   "tool_calls": 4,
+   "tool_errors": 0,
+   "prompt_tokens": 42651,
+   "completion_tokens": 10385,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 148.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.030303030303030304,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21993,
+   "completion_tokens": 13171,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 186.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.25757575757575757,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21784,
+   "completion_tokens": 16579,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 222.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21886,
+   "completion_tokens": 10373,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 148.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "D_think",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.19696969696969696,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 21892,
+   "completion_tokens": 10613,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 150.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.125,
+  "mode": "too slow (grader timeout)",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 7000,
+   "completion_tokens": 10355,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 161.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 4,
+   "tool_errors": 0,
+   "prompt_tokens": 9204,
+   "completion_tokens": 9806,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 152.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.125,
+  "mode": "too slow (grader timeout)",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 2,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 4,
+   "tool_errors": 0,
+   "prompt_tokens": 9241,
+   "completion_tokens": 10923,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 173.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 22515,
+   "completion_tokens": 10069,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 154.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 22423,
+   "completion_tokens": 9562,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 146.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 23725,
+   "completion_tokens": 10514,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 161.6,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 35742,
+   "completion_tokens": 10834,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 155.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 23551,
+   "completion_tokens": 9897,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 141.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 36789,
+   "completion_tokens": 11316,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 161.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.3888888888888889,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day",
+   "model-selection"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 2,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 11793,
+   "completion_tokens": 14267,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 201.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.015151515151515152,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 23407,
+   "completion_tokens": 12548,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 153.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 4,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 9,
+   "tool_errors": 0,
+   "prompt_tokens": 115758,
+   "completion_tokens": 37817,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 481.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.4393939393939394,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 23340,
+   "completion_tokens": 15809,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 171.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 22979,
+   "completion_tokens": 18560,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 182.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "E_think_method",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.09090909090909091,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 1,
+   "silent_submit": true,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 34908,
+   "completion_tokens": 10470,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 100.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "method",
+   "repeat_guard": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 79991,
+   "completion_tokens": 1917,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 54.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 10,
+   "tool_calls": 10,
+   "tool_errors": 0,
+   "prompt_tokens": 77732,
+   "completion_tokens": 1957,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 57.2,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 9,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 14,
+   "tool_errors": 0,
+   "prompt_tokens": 100836,
+   "completion_tokens": 3365,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 3,
+   "repeat_notes": 2,
+   "overflow_retries": 0,
+   "wall_seconds": 99.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 9,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 13,
+   "tool_calls": 13,
+   "tool_errors": 0,
+   "prompt_tokens": 93807,
+   "completion_tokens": 2663,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 79.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.75,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 12,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 91195,
+   "completion_tokens": 2814,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 83.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 16,
+   "tool_calls": 15,
+   "tool_errors": 0,
+   "prompt_tokens": 99861,
+   "completion_tokens": 5362,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 145.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 14,
+   "empty_runs": 6,
+   "silent_submit": true,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 16,
+   "tool_calls": 15,
+   "tool_errors": 0,
+   "prompt_tokens": 109335,
+   "completion_tokens": 5109,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 3,
+   "overflow_retries": 0,
+   "wall_seconds": 131.9,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.05555555555555555,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 17,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 116425,
+   "completion_tokens": 5674,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 4,
+   "repeat_notes": 2,
+   "overflow_retries": 0,
+   "wall_seconds": 154.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.1111111111111111,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 6,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 84054,
+   "completion_tokens": 5279,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 3,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 137.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 21,
+   "tool_calls": 21,
+   "tool_errors": 0,
+   "prompt_tokens": 140143,
+   "completion_tokens": 9310,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 12,
+   "repeat_notes": 10,
+   "overflow_retries": 0,
+   "wall_seconds": 242.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.22727272727272727,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 8,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 17,
+   "tool_calls": 15,
+   "tool_errors": 0,
+   "prompt_tokens": 84659,
+   "completion_tokens": 7923,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 199.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.25757575757575757,
+  "mode": "stuck in repetition loop",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 3,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 441811,
+   "completion_tokens": 47088,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 35,
+   "repeat_notes": 33,
+   "overflow_retries": 0,
+   "wall_seconds": 1141.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.06060606060606061,
+  "mode": "stuck in repetition loop",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 39,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 40,
+   "tool_errors": 0,
+   "prompt_tokens": 233171,
+   "completion_tokens": 2328,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 36,
+   "repeat_notes": 28,
+   "overflow_retries": 0,
+   "wall_seconds": 70.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 13,
+   "tool_calls": 12,
+   "tool_errors": 0,
+   "prompt_tokens": 59580,
+   "completion_tokens": 7185,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 6,
+   "repeat_notes": 4,
+   "overflow_retries": 0,
+   "wall_seconds": 539.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "F_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.06060606060606061,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 7,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 14,
+   "tool_calls": 13,
+   "tool_errors": 0,
+   "prompt_tokens": 70539,
+   "completion_tokens": 8152,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 5,
+   "repeat_notes": 3,
+   "overflow_retries": 0,
+   "wall_seconds": 200.3,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": false,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "ran out of turns/time",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 40,
+   "tool_calls": 6,
+   "tool_errors": 0,
+   "prompt_tokens": 133283,
+   "completion_tokens": 31900,
+   "submitted": false,
+   "stop_reason": "max_turns",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 781.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.75,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 13,
+   "tool_calls": 13,
+   "tool_errors": 0,
+   "prompt_tokens": 45463,
+   "completion_tokens": 52075,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 1270.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.5,
+  "mode": "ran out of turns/time",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 4,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 22,
+   "tool_calls": 22,
+   "tool_errors": 0,
+   "prompt_tokens": 77241,
+   "completion_tokens": 75002,
+   "submitted": false,
+   "stop_reason": "time_budget",
+   "repeated_calls": 5,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 1847.4,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "reaction-network-stiff",
+  "reward": 0,
+  "score": 0.875,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 3,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 17,
+   "tool_calls": 17,
+   "tool_errors": 0,
+   "prompt_tokens": 52765,
+   "completion_tokens": 61385,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 7,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 1485.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "reaction-network-stiff",
+  "reward": 1,
+  "score": 1.0,
+  "mode": "solved",
+  "methods": [
+   "implicit",
+   "tight-rtol"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 15,
+   "tool_calls": 15,
+   "tool_errors": 0,
+   "prompt_tokens": 48358,
+   "completion_tokens": 44189,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 1078.5,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.20138888888888887,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 30752,
+   "completion_tokens": 15074,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 371.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.6319444444444444,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 3,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 0,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 8,
+   "tool_calls": 8,
+   "tool_errors": 0,
+   "prompt_tokens": 47516,
+   "completion_tokens": 31896,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 2,
+   "repeat_notes": 1,
+   "overflow_retries": 0,
+   "wall_seconds": 795.6,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 2,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 8,
+   "tool_calls": 7,
+   "tool_errors": 0,
+   "prompt_tokens": 37439,
+   "completion_tokens": 45331,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 1,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 1107.7,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 2,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 15187,
+   "completion_tokens": 17485,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 419.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seir-changepoint-inference",
+  "reward": 0,
+  "score": 0.5833333333333334,
+  "mode": "submitted wrong/partial solution",
+  "methods": [
+   "scans-change-day"
+  ],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 2,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 15211,
+   "completion_tokens": 14374,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 349.8,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 30601,
+   "completion_tokens": 15940,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 374.1,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.09090909090909091,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 1,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": true
+  },
+  "agent": {
+   "turns": 4,
+   "tool_calls": 3,
+   "tool_errors": 0,
+   "prompt_tokens": 46608,
+   "completion_tokens": 16679,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 392.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.12121212121212122,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 30354,
+   "completion_tokens": 14522,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 338.6,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.0,
+  "mode": "too slow (grader timeout)",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 30400,
+   "completion_tokens": 14354,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 332.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ },
+ {
+  "config": "G_think_check",
+  "task": "seq-align-affine",
+  "reward": 0,
+  "score": 0.22727272727272727,
+  "mode": "submitted wrong/partial solution",
+  "methods": [],
+  "behaviour": {
+   "bash_runs": 0,
+   "empty_runs": 0,
+   "silent_submit": false,
+   "truncated": 1,
+   "used_check": false
+  },
+  "agent": {
+   "turns": 3,
+   "tool_calls": 2,
+   "tool_errors": 0,
+   "prompt_tokens": 30065,
+   "completion_tokens": 15062,
+   "submitted": true,
+   "stop_reason": "submitted",
+   "repeated_calls": 0,
+   "repeat_notes": 0,
+   "overflow_retries": 0,
+   "wall_seconds": 330.0,
+   "agent": "llm",
+   "model": "qwen3-8b",
+   "thinking": true,
+   "guidance": "goal",
+   "repeat_guard": true,
+   "public_check": true,
+   "isolated": true
+  }
+ }
+]

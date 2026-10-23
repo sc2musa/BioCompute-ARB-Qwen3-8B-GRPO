@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 17,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-9a6c666f41666a41",
+ "reward": 0,
+ "score": 0.030303030303030304,
+ "agent_seconds": 67.8,
+ "agent": {
+  "turns": 18,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "prompt_tokens": 77316,
+  "completion_tokens": 7124,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 8,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 67.8,
+  "agent": "llm",
+  "model": "qwen3-8b-rl99",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.030303030303030304,
+  "n_pass": 2,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.03125,
+  "perf_seconds": [
+   2.0312315170885995,
+   1.9730288459686562
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -20 != optimal -8",
+    "seconds": 2.7775997295975685e-05
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -20 != optimal 0",
+    "seconds": 7.786089554429054e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -21 != optimal -11",
+    "seconds": 7.905997335910797e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -21 != optimal 0",
+    "seconds": 6.236019544303417e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 1.373502891510725e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 8.542090654373169e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 8.672010153532028e-06
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score -3 != optimal 0",
+    "seconds": 7.814960554242134e-06
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 7.404200732707977e-05
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 6.695394404232502e-05
+   }
+  ],
+  "verifier_seconds": 5.6
+ }
+}

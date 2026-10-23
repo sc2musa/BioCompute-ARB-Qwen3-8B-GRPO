@@ -1,0 +1,103 @@
+{
+ "task": "seq-align-affine",
+ "trial": 4,
+ "task_digest": "65c40a4f3630abf0",
+ "workspace": "app-4e243f2c47f1f0a1",
+ "reward": 0,
+ "score": 0.06060606060606061,
+ "agent_seconds": 200.3,
+ "agent": {
+  "turns": 14,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "prompt_tokens": 70539,
+  "completion_tokens": 8152,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 5,
+  "repeat_notes": 3,
+  "overflow_retries": 0,
+  "wall_seconds": 200.3,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.06060606060606061,
+  "n_pass": 4,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0625,
+  "perf_seconds": [
+   6.615055911242962,
+   6.760397307574749
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 3.2633543014526367e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 2.0489096641540527e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 2.7120113372802734e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 2.0563602447509766e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 7.550418376922607e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 0.000321216881275177
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.3269484043121338e-05
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 0.00011500716209411621
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 0.024231255054473877
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -22 != optimal -38",
+    "seconds": 0.00019688159227371216
+   }
+  ],
+  "verifier_seconds": 18.4
+ }
+}

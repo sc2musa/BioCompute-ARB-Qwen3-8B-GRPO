@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 0,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-e25357c20d9464a6",
+ "reward": 0,
+ "score": 0.16666666666666666,
+ "agent_seconds": 70.0,
+ "agent": {
+  "turns": 15,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "prompt_tokens": 64673,
+  "completion_tokens": 4892,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 70.0,
+  "agent": "llm",
+  "model": "qwen3-8b-rft",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.16666666666666666,
+  "n_pass": 11,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.171875,
+  "perf_seconds": [
+   3.0961068290052935,
+   3.103567904094234
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.0008247849764302373
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00021556392312049866
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00018067797645926476
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00018549710512161255
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00017619901336729527
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00027142197359353304
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.0003331070765852928
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.00034161191433668137
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 12 != optimal 15",
+    "seconds": 0.0002111330395564437
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round3/rft/seq-align-affine/trial0/verify/app/align.py\", line 61, in align\n    return (score, aligned_a, aligned_b)\n                   ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+    "seconds": 0.02847870602272451
+   }
+  ],
+  "verifier_seconds": 8.3
+ }
+}

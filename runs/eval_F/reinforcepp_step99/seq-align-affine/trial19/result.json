@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 19,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-33b229f94c56abd7",
+ "reward": 0,
+ "score": 0.09090909090909091,
+ "agent_seconds": 68.4,
+ "agent": {
+  "turns": 18,
+  "tool_calls": 18,
+  "tool_errors": 0,
+  "prompt_tokens": 81906,
+  "completion_tokens": 7512,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 8,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 68.4,
+  "agent": "llm",
+  "model": "qwen3-8b-rl99",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.09090909090909091,
+  "n_pass": 6,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.09375,
+  "perf_seconds": [
+   2.0026148229371756,
+   1.9890825930051506
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 3.003980964422226e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.8120044842362404e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 2.5460030883550644e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "aligned strings must be str of equal length",
+    "seconds": 1.995009370148182e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 1.0414980351924896e-05
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: o_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seq-align-affine/trial19/verify/app/align.py\", line 55, in align\n    if seq_a[i-1] == seq_b[j-1]:\n       ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.0007060759235173464
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -22 != optimal -38",
+    "seconds": 0.00011151307262480259
+   },
+   {
+    "id": "edge6_local",
+    "pass": false,
+    "reason": "error: o_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seq-align-affine/trial19/verify/app/align.py\", line 55, in align\n    if seq_a[i-1] == seq_b[j-1]:\n       ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.00031864200718700886
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 0 != optimal -1",
+    "seconds": 0.0001381230540573597
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "error: o_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl99_F/seq-align-affine/trial19/verify/app/align.py\", line 55, in align\n    if seq_a[i-1] == seq_b[j-1]:\n       ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.0003232629969716072
+   }
+  ],
+  "verifier_seconds": 5.7
+ }
+}

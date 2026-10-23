@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  15.112395480275154,
+  16.80330216139555
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.017026588320732117
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+   "seconds": 0.000575624406337738
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0005613565444946289
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+   "seconds": 0.00026160478591918945
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0005319118499755859
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+   "seconds": 0.00021839886903762817
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.0006280839443206787
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+   "seconds": 0.0002704933285713196
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 51, in align\n    end_cell = np.unravel_index([M[n][m], X[n][m], Y[n][m]].argmax(), (3, n + 1, m + 1))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'argmax'\n",
+   "seconds": 0.000546380877494812
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: )\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial0/verify/app/align.py\", line 59, in align\n    i, j = end_cell[1], end_cell[2]\n                        ~~~~~~~~^^^\nIndexError: tuple index out of range\n",
+   "seconds": 0.0002253800630569458
+  }
+ ]
+}

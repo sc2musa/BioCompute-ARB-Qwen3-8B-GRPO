@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 1,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-39d8a4f67a98f9d8",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 36.7,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 25551,
+  "completion_tokens": 1077,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 7,
+  "repeat_notes": 6,
+  "overflow_retries": 0,
+  "wall_seconds": 36.7,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 60.062255911529064,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.019822880625724792,
+    "reason": "error: ib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (4, 4), but actually has (4, 3).\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.006764411926269531,
+    "reason": "error: ib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (5, 5), but actually has (5, 9).\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0024810731410980225,
+    "reason": "error: ib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (3, 3), but actually has (3, 2).\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.00522034615278244,
+    "reason": "error: ython3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (16, 16), but actually has (16, 18).\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.003565944731235504,
+    "reason": "error: ython3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (21, 21), but actually has (21, 24).\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011390246450901031,
+    "reason": "error: ython3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (12, 12), but actually has (12, 28).\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.013011008501052856,
+    "reason": "error: thon3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: `jac` is expected to have shape (40, 40), but actually has (40, 100).\n"
+   }
+  ],
+  "verifier_seconds": 80.7
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

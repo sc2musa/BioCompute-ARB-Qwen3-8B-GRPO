@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 18,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-2d7d8ae20b57f1ec",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 10.4,
+ "agent": {
+  "turns": 14,
+  "tool_calls": 14,
+  "tool_errors": 0,
+  "prompt_tokens": 39946,
+  "completion_tokens": 412,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 8,
+  "repeat_notes": 6,
+  "overflow_retries": 0,
+  "wall_seconds": 10.3,
+  "agent": "llm",
+  "model": "qwen3-8b-rft",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   0.003011205932125449,
+   0.0030398439848795533
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 0.0031775429379194975
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 0.00016439193859696388
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 0.00011112494394183159
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 9.673100430518389e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 9.406404569745064e-05
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 9.40409954637289e-05
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 8.867692667990923e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 8.527992758899927e-05
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 8.580007124692202e-05
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: ild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial18/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+    "seconds": 8.88920621946454e-05
+   }
+  ],
+  "verifier_seconds": 0.7
+ }
+}

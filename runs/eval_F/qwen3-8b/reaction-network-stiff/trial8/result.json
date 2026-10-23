@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 8,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-a90b4ebc34021a0f",
+ "reward": 0,
+ "score": 0.875,
+ "agent_seconds": 48.2,
+ "agent": {
+  "turns": 15,
+  "tool_calls": 15,
+  "tool_errors": 0,
+  "prompt_tokens": 101828,
+  "completion_tokens": 2717,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 48.2,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.875,
+  "n_pass": 7,
+  "n_cases": 8,
+  "total_seconds": 3.063900070847012,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": true,
+    "max_scaled_error": 3.8950335610211e-05,
+    "seconds": 0.0854593119584024,
+    "reason": "ok"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": 0.003313183074385625,
+    "seconds": 0.09999539994169027,
+    "reason": "max scaled error 3.31e-03 > 1e-04"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 1.0548586911445642e-06,
+    "seconds": 0.178650822956115,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 1.8062226984601046e-07,
+    "seconds": 0.07749785704072565,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 6.393595782168619e-07,
+    "seconds": 0.16427233489230275,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 4.350549441536288e-06,
+    "seconds": 0.150517103029415,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 1.3681593670567334e-06,
+    "seconds": 0.4493395850295201,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 2.0134251303889415e-05,
+    "seconds": 1.858167655998841,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 9.6
+ }
+}

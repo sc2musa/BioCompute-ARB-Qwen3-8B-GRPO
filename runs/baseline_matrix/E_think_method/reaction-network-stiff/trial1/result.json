@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 1,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-9188d289156c24fd",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 152.8,
+ "agent": {
+  "turns": 4,
+  "tool_calls": 4,
+  "tool_errors": 0,
+  "prompt_tokens": 9204,
+  "completion_tokens": 9806,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 152.7,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.064310722053051,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0016611665487289429,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.02116856724023819,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.007423803210258484,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.008148148655891418,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011935338377952576,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011206135153770447,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.00149429589509964,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0012732669711112976,
+    "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+   }
+  ],
+  "verifier_seconds": 23.3
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 8,
+ "total_seconds": 0.064310722053051,
+ "details": [
+  {
+   "id": "michaelis_menten_full",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0016611665487289429,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "robertson_autocatalysis",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.02116856724023819,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "gene_expression_dimerisation",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.007423803210258484,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "sir_mass_action",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.008148148655891418,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "mapk_cascade_3tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.011935338377952576,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "mapk_cascade_4tier",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.011206135153770447,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "random_closed_12",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.00149429589509964,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  },
+  {
+   "id": "random_closed_40",
+   "pass": false,
+   "max_scaled_error": null,
+   "seconds": 0.0012732669711112976,
+   "reason": "error: t/$ROOT/runs/matrix_v2/E_think_method/reaction-network-stiff/trial1/verify/app/simulate.py\", line 19, in simulate\n    A[r_idx, s_idx] = reactants.get(species_name, 0)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'dict'\n"
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.18405171507038176,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.01161544001661241,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.010883789043873549,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.016156952013261616,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.016086283954791725,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.016620171023532748,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.014399993000552058,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.014147456968203187,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.017913640942424536,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.015552783966995776,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.01822736207395792,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.015565430046990514,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.016882412019185722,
+   "criteria": {
+    "R0": false,
+    "R_post": false,
+    "change_day": false,
+    "forecast": false
+   },
+   "errors": {
+    "R0": 1.0,
+    "R_post": 1.0,
+    "change_day": null,
+    "forecast_rmae": 1.0
+   },
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

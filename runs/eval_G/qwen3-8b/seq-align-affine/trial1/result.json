@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 1,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-ca50134999c81c4b",
+ "reward": 0,
+ "score": 0.25757575757575757,
+ "agent_seconds": 465.9,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "prompt_tokens": 167387,
+  "completion_tokens": 38792,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 465.9,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.25757575757575757,
+  "n_pass": 17,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.265625,
+  "perf_seconds": [
+   3.1778770819073543,
+   3.37342706695199
+  ],
+  "failures": [
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -8 != optimal 0",
+    "seconds": 2.6649795472621918e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -11 != optimal 0",
+    "seconds": 2.2778986021876335e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "error: wargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seq-align-affine/trial1/verify/app/align.py\", line 78, in align\n    aligned_a.append(seq_a[i-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.0008658820297569036
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "error: wargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seq-align-affine/trial1/verify/app/align.py\", line 79, in align\n    aligned_b.append(seq_b[j-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.00041014899034053087
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "error: args))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seq-align-affine/trial1/verify/app/align.py\", line 170, in align\n    aligned_b.append(seq_b[j-1])\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+    "seconds": 0.00046857690904289484
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score 148 != optimal 153",
+    "seconds": 0.02555568201933056
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 47 != optimal 42",
+    "seconds": 0.011786245973780751
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "score 366 != optimal 360",
+    "seconds": 0.007591239991597831
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "score 381 != optimal 384",
+    "seconds": 0.05112932901829481
+   },
+   {
+    "id": "rand4_global",
+    "pass": false,
+    "reason": "score 107 != optimal 106",
+    "seconds": 0.01117994892410934
+   }
+  ],
+  "verifier_seconds": 8.7
+ }
+}

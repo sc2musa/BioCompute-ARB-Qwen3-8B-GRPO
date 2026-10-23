@@ -1,0 +1,6 @@
+# Server environment (Linux, CUDA GPU). Task code itself only needs numpy + scipy.
+vllm==0.11.0
+numpy==1.26.4
+scipy==1.13.1
+openai>=1.40
+modelscope>=1.20

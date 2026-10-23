@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 8,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-045b7a2440d1d023",
+ "reward": 0,
+ "score": 0.030303030303030304,
+ "agent_seconds": 56.1,
+ "agent": {
+  "turns": 14,
+  "tool_calls": 14,
+  "tool_errors": 0,
+  "prompt_tokens": 53036,
+  "completion_tokens": 5658,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 56.1,
+  "agent": "llm",
+  "model": "qwen3-8b-rl50",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.030303030303030304,
+  "n_pass": 2,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.03125,
+  "perf_seconds": [
+   1.7657373959664255,
+   1.7434470530133694
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "score -3.0 != optimal 0",
+    "seconds": 2.236408181488514e-05
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "score -3.0 != optimal 0",
+    "seconds": 9.447918273508549e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -8.0 != optimal 0",
+    "seconds": 8.826958946883678e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -11.0 != optimal 0",
+    "seconds": 5.687936209142208e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 1.039204653352499e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 8.709961548447609e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 7.807044312357903e-06
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score -3.0 != optimal 0",
+    "seconds": 6.767921149730682e-06
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "score 1.0 != optimal 8",
+    "seconds": 7.956300396472216e-05
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "score 1.0 != optimal 8",
+    "seconds": 7.195794023573399e-05
+   }
+  ],
+  "verifier_seconds": 5.1
+ }
+}

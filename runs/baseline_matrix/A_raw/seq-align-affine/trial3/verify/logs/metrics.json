@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.06060606060606061,
+ "n_pass": 4,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0625,
+ "perf_seconds": [
+  1.064289391040802,
+  1.0998876243829727
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "score 0 != optimal -8",
+   "seconds": 3.1962990760803223e-06
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 2.0265579223632812e-06
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score 0 != optimal -11",
+   "seconds": 2.644956111907959e-06
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 2.0638108253479004e-06
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "global alignment does not spell the full input sequences",
+   "seconds": 1.2032687664031982e-05
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "local alignment is not a pair of substrings",
+   "seconds": 1.0520219802856445e-05
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "global alignment does not spell the full input sequences",
+   "seconds": 7.897615432739258e-06
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "global alignment does not spell the full input sequences",
+   "seconds": 3.9443373680114746e-05
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "local alignment is not a pair of substrings",
+   "seconds": 3.670156002044678e-05
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score -22 != optimal -38",
+   "seconds": 5.535781383514404e-05
+  }
+ ]
+}

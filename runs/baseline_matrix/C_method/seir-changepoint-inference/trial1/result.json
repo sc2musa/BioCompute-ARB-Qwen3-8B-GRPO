@@ -1,0 +1,128 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 1,
+ "task_digest": "1e7a111986327efe",
+ "workspace": "app-a6ecd3c8e461cfcc",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 84.6,
+ "agent": {
+  "turns": 29,
+  "tool_calls": 29,
+  "tool_errors": 0,
+  "prompt_tokens": 148770,
+  "completion_tokens": 3966,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 19,
+  "repeat_notes": 18,
+  "overflow_retries": 0,
+  "wall_seconds": 84.5,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.00014570355415344238,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 1.3276934623718262e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 1.5221536159515381e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 1.2569129467010498e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 1.0870397090911865e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 1.0706484317779541e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 1.1980533599853516e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 1.1689960956573486e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 1.1675059795379639e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 1.1302530765533447e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 1.0982155799865723e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 1.4171004295349121e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 1.1257827281951904e-05,
+    "error": "fit() must return a dict",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 16.0
+ }
+}

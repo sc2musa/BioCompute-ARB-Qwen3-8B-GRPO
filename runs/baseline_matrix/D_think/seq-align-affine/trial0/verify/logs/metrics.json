@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.06060606060606061,
+ "n_pass": 4,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0625,
+ "perf_seconds": [
+  18.39381977915764,
+  19.10385725647211
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: ^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial0/verify/app/align.py\", line 99, in align\n    if dp[i][j][2] == dp[i][j-1][2] + gap_extend:\n                      ~~~~~^^^^^\nIndexError: index -2 is out of bounds for axis 0 with size 1\n",
+   "seconds": 0.006855666637420654
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial0/verify/app/align.py\", line 88, in align\n    if dp[i][j][1] == dp[i-1][j][1] + gap_extend:\n                      ~~^^^^^\nIndexError: index -2 is out of bounds for axis 0 with size 1\n",
+   "seconds": 0.00027438998222351074
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "score 9223372036854775804 != optimal 3",
+   "seconds": 0.0001543685793876648
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "score 9223372036854775804 != optimal 3",
+   "seconds": 7.541477680206299e-05
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score 9223372036854775803 != optimal -3",
+   "seconds": 8.397549390792847e-05
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "score 9223372036854775803 != optimal 0",
+   "seconds": 4.7713518142700195e-05
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "score 9223372036854775807 != optimal 8",
+   "seconds": 0.000437416136264801
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "score 9223372036854775807 != optimal 8",
+   "seconds": 0.00040550529956817627
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score 9223372036854775789 != optimal -38",
+   "seconds": 0.0005822256207466125
+  },
+  {
+   "id": "edge6_local",
+   "pass": false,
+   "reason": "score 9223372036854775804 != optimal 0",
+   "seconds": 0.0005529224872589111
+  }
+ ]
+}

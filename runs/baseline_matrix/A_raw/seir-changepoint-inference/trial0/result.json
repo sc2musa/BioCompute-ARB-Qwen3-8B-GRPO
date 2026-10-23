@@ -1,0 +1,128 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 0,
+ "task_digest": "1e7a111986327efe",
+ "workspace": "app-1aa834c4289c1946",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 103.1,
+ "agent": {
+  "turns": 40,
+  "tool_calls": 40,
+  "tool_errors": 0,
+  "prompt_tokens": 130849,
+  "completion_tokens": 2290,
+  "submitted": false,
+  "stop_reason": "max_turns",
+  "repeated_calls": 31,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 103.1,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": false,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.014466427266597748,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.0031724050641059875,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.0009882599115371704,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.0009708255529403687,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.0010410621762275696,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.0010437965393066406,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.0008604153990745544,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.0010663419961929321,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.0011497139930725098,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 0.0010421276092529297,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 0.001080438494682312,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.0010675638914108276,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.0009834766387939453,
+    "error": "ce/trial0/verify/app/fit.py\", line 26, in fit\n    new_cases = np.random.poisson(I * sigma * gamma * population)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 3669, in numpy.random.mtrand.RandomState.poisson\nValueError: lam < 0 or lam is NaN\n",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 14.6
+ }
+}

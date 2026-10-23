@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.09090909090909091,
+ "n_pass": 6,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.09375,
+ "perf_seconds": [
+  0.0505879350239411,
+  0.04246063297614455
+ ],
+ "failures": [
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 4.460918717086315e-06
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 2.877088263630867e-06
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.0035832440480589867
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.000253122067078948
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score -2 != optimal -3",
+   "seconds": 1.7344951629638672e-05
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.00020127592142671347
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.00017967796884477139
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score -10 != optimal -38",
+   "seconds": 0.00012893194798380136
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.00019048899412155151
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+   "seconds": 0.00018040405120700598
+  }
+ ]
+}

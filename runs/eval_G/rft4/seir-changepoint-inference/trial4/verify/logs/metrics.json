@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 32.99112747784238,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 2.7427928409306332,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 2.743839282891713,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 2.7432719790376723,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 2.7676827929681167,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 2.752879463019781,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 2.730416758102365,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 2.713478024932556,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 2.709990454954095,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 2.743801207980141,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 2.7733757379464805,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 2.829964966047555,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 2.7396339690312743,
+   "error": "      ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seir-changepoint-inference/trial4/verify/app/fit.py\", line 97, in fit\n    beta = best_R0 * gamma\n           ~~~~~~~~^~~~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'float'\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

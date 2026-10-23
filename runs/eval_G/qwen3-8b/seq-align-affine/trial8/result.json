@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 8,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-01154dbe43bee050",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 580.7,
+ "agent": {
+  "turns": 15,
+  "tool_calls": 14,
+  "tool_errors": 0,
+  "prompt_tokens": 262392,
+  "completion_tokens": 51254,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 580.7,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   1.8835828490555286,
+   2.92023408098612
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   }
+  ],
+  "verifier_seconds": 305.5
+ }
+}

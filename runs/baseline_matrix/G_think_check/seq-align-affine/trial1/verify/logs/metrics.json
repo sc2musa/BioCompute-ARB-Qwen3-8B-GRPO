@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.09090909090909091,
+ "n_pass": 6,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.09375,
+ "perf_seconds": [
+  6.459745638072491,
+  5.6365712732076645
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "score -inf != optimal -8",
+   "seconds": 3.6932528018951416e-05
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score -inf != optimal -11",
+   "seconds": 1.0423362255096436e-05
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 95, in backtrack_global\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.02884785085916519
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 123, in backtrack_local\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0008728876709938049
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: x_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 95, in backtrack_global\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                                                        ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+   "seconds": 0.001325756311416626
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 95, in backtrack_global\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0008667632937431335
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 123, in backtrack_local\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.000856645405292511
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "error: x_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 95, in backtrack_global\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                                                        ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+   "seconds": 0.0014525055885314941
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 95, in backtrack_global\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0009468570351600647
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/G_think_check/seq-align-affine/trial1/verify/app/align.py\", line 123, in backtrack_local\n    if M[i][j] == M[i-1][j-1] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                 ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0009402260184288025
+  }
+ ]
+}

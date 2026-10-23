@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.12468213611282408,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.010309459990821779,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.01144506607670337,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.009684477001428604,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.013712244923226535,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.010001076036132872,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.00994807796087116,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.009980623028241098,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.010069301002658904,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.009940961026586592,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.009767825016751885,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.010042777052149177,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.009780246997252107,
+   "error": "nvs/roll/lib/python3.12/site-packages/scipy/optimize/_minimize.py\", line 790, in minimize\n    res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: index 70 is out of bounds for axis 0 with size 70\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

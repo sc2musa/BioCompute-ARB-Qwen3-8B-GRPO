@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 1,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-93380d94ad2b1751",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 40.4,
+ "agent": {
+  "turns": 12,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "prompt_tokens": 25575,
+  "completion_tokens": 1153,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 8,
+  "repeat_notes": 7,
+  "overflow_retries": 0,
+  "wall_seconds": 40.3,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.3734724149107933,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": 1001.1349482165233,
+    "seconds": 0.06204383820295334,
+    "reason": "max scaled error 1.00e+03 > 1e-04"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": 0.06696863615275717,
+    "seconds": 0.07711470127105713,
+    "reason": "max scaled error 6.70e-02 > 1e-04"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.03205152601003647,
+    "reason": "error:              ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/B_guard/reaction-network-stiff/trial1/verify/app/simulate.py\", line 31, in simulate\n    rate_constants[i] = rate\n    ~~~~~~~~~~~~~~^^^\nIndexError: index 5 is out of bounds for axis 0 with size 5\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": 0.005026588954956894,
+    "seconds": 0.1396133378148079,
+    "reason": "max scaled error 5.03e-03 > 1e-04"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.024022497236728668,
+    "reason": "error:            ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/B_guard/reaction-network-stiff/trial1/verify/app/simulate.py\", line 31, in simulate\n    rate_constants[i] = rate\n    ~~~~~~~~~~~~~~^^^\nIndexError: index 16 is out of bounds for axis 0 with size 16\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.00132007896900177,
+    "reason": "error:            ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/B_guard/reaction-network-stiff/trial1/verify/app/simulate.py\", line 31, in simulate\n    rate_constants[i] = rate\n    ~~~~~~~~~~~~~~^^^\nIndexError: index 21 is out of bounds for axis 0 with size 21\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011569857597351074,
+    "reason": "error:            ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/B_guard/reaction-network-stiff/trial1/verify/app/simulate.py\", line 31, in simulate\n    rate_constants[i] = rate\n    ~~~~~~~~~~~~~~^^^\nIndexError: index 12 is out of bounds for axis 0 with size 12\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.025736577808856964,
+    "reason": "error:            ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/B_guard/reaction-network-stiff/trial1/verify/app/simulate.py\", line 31, in simulate\n    rate_constants[i] = rate\n    ~~~~~~~~~~~~~~^^^\nIndexError: index 40 is out of bounds for axis 0 with size 40\n"
+   }
+  ],
+  "verifier_seconds": 23.2
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

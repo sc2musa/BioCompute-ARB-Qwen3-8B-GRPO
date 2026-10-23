@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.07575757575757576,
+ "n_pass": 5,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.078125,
+ "perf_seconds": [
+  2.502225231961347,
+  2.4952894650632516
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 2.705608494579792e-05
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial6/verify/app/align.py\", line 53, in align\n    aligned_b[j-1] = seq_b[j-1]\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.0009152349084615707
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score -20.0 != optimal -11",
+   "seconds": 1.836102455854416e-05
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "aligned strings must be str of equal length",
+   "seconds": 7.5820134952664375e-06
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "score -2.0 != optimal 0",
+   "seconds": 8.02893191576004e-06
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "score 1.0 != optimal 8",
+   "seconds": 0.00012197101023048162
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial6/verify/app/align.py\", line 53, in align\n    aligned_b[j-1] = seq_b[j-1]\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00032203306909650564
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial6/verify/app/align.py\", line 53, in align\n    aligned_b[j-1] = seq_b[j-1]\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00034027895890176296
+  },
+  {
+   "id": "edge6_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial6/verify/app/align.py\", line 53, in align\n    aligned_b[j-1] = seq_b[j-1]\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00030070904176682234
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/grpo40_F/seq-align-affine/trial6/verify/app/align.py\", line 53, in align\n    aligned_b[j-1] = seq_b[j-1]\n                     ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.0003374230582267046
+  }
+ ]
+}

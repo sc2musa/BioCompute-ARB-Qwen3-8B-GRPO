@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 4,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-2e45b18d9b6234f3",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 27.9,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 21790,
+  "completion_tokens": 788,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 6,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 27.9,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.11680613458156586,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0074780285358428955,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'E' is not in list\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.018401823937892914,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'A' is not in list\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.02359876036643982,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'G' is not in list\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0167306587100029,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'S' is not in list\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.009655416011810303,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'Sig' is not in list\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.015129685401916504,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'Sig' is not in list\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0186619833111763,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'X10' is not in list\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.007149778306484222,
+    "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 657, in solve_ivp\n    message = solver.step()\n              ^^^^^^^^^^^^^\nValueError: 'X13' is not in list\n"
+   }
+  ],
+  "verifier_seconds": 23.1
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

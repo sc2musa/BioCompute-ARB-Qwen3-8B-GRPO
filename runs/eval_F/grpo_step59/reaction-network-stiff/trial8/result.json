@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 8,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-b60292d6b8ca296e",
+ "reward": 1,
+ "score": 1.0,
+ "agent_seconds": 44.6,
+ "agent": {
+  "turns": 14,
+  "tool_calls": 14,
+  "tool_errors": 0,
+  "prompt_tokens": 100570,
+  "completion_tokens": 3828,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 3,
+  "repeat_notes": 1,
+  "overflow_retries": 0,
+  "wall_seconds": 44.5,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": true,
+  "score": 1.0,
+  "n_pass": 8,
+  "n_cases": 8,
+  "total_seconds": 3.8128014099784195,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": true,
+    "max_scaled_error": 1.03939168806689e-07,
+    "seconds": 0.12410931289196014,
+    "reason": "ok"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": true,
+    "max_scaled_error": 1.8601868377742912e-06,
+    "seconds": 0.10663131508044899,
+    "reason": "ok"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 1.0028019825746051e-07,
+    "seconds": 0.1599147788947448,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 1.806422087151078e-07,
+    "seconds": 0.058398965978994966,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 4.6865975142260434e-08,
+    "seconds": 0.17942422407213598,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 7.554577561396603e-08,
+    "seconds": 0.19615388894453645,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 8.823865287034392e-08,
+    "seconds": 0.37498035305179656,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 3.5975217680613426e-07,
+    "seconds": 2.6131885710638016,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 9.8
+ }
+}

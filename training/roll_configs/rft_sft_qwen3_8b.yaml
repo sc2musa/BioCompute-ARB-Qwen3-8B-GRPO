@@ -1,0 +1,63 @@
+# ROLL SFT config: full-parameter rejection-sampling fine-tuning (RFT) of Qwen3-8B on
+# multi-turn agent trajectories (one sample per assistant turn, pre-rendered with the Qwen3
+# chat template; loss on the assistant turn only). Requires the "raw" template branch in
+# roll/pipeline/sft/sft_pipeline.py (see training/roll_patches/).
+# Paths come from the environment (set by training/run_sft.sh):
+#   BASE_MODEL, SFT_DATA, SFT_OUT, EXP_NAME
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+exp_name: ${oc.env:EXP_NAME,biocompute-rft-qwen3-8b}
+seed: 42
+logging_dir: ${oc.env:SFT_OUT}/logs
+output_dir: ${oc.env:SFT_OUT}
+system_envs:
+  USE_MODELSCOPE: '0'
+
+# Metrics go to train.log as "metrics_tag: {...}" lines (no tensorboard in the shared env)
+track_with: stdout
+
+num_gpus_per_node: 8
+save_steps: 100000          # save once at the end of training
+logging_steps: 1
+eval_steps: 100000
+resume_from_checkpoint: false
+
+sequence_length: 32768
+pretrain: ${oc.env:BASE_MODEL}
+
+prompt_key: prompt_text
+response_key: response_text
+global_template: raw
+
+sft_train:
+  model_args:
+    dtype: bf16
+    disable_gradient_checkpointing: false
+  training_args:
+    num_train_epochs: 2
+    per_device_train_batch_size: 1
+    gradient_accumulation_steps: 16   # global batch = 1 x 16 x DP(2) = 32 samples
+    learning_rate: 1.0e-5
+    lr_scheduler_type: cosine
+    warmup_ratio: 0.03
+    weight_decay: 0.0
+    save_hf_model: true
+  data_args:
+    file_name: ${oc.env:SFT_DATA}
+    template: raw
+    preprocessing_num_workers: 16
+  strategy_args:
+    strategy_name: megatron_train
+    strategy_config:
+      tensor_model_parallel_size: 2
+      context_parallel_size: 2
+      pipeline_model_parallel_size: 1
+      sequence_parallel: true
+      use_distributed_optimizer: true
+      recompute_granularity: full
+  use_sequence_packing: true
+  device_mapping: list(range(0,8))
+  infer_batch_size: 1

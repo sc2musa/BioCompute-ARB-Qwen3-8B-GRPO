@@ -1,0 +1,103 @@
+{
+ "task": "seq-align-affine",
+ "trial": 3,
+ "task_digest": "65c40a4f3630abf0",
+ "workspace": "app-e6db73c82453cc4c",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 539.1,
+ "agent": {
+  "turns": 13,
+  "tool_calls": 12,
+  "tool_errors": 0,
+  "prompt_tokens": 59580,
+  "completion_tokens": 7185,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 6,
+  "repeat_notes": 4,
+  "overflow_retries": 0,
+  "wall_seconds": 539.1,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   9.279100313782692,
+   null
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   }
+  ],
+  "verifier_seconds": 370.9
+ }
+}

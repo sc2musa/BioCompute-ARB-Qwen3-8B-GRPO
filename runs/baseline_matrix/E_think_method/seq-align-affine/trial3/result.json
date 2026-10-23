@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 3,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-5eb9a0eb2783e702",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 182.3,
+ "agent": {
+  "turns": 3,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 22979,
+  "completion_tokens": 18560,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 182.3,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   11.664666287600994,
+   null
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: timeout after 300s",
+    "seconds": null
+   }
+  ],
+  "verifier_seconds": 372.4
+ }
+}

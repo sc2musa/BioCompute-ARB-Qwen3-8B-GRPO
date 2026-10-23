@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.09090909090909091,
+ "n_pass": 6,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.09375,
+ "perf_seconds": [
+  6.0760126411914825,
+  6.323868162930012
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.0008825957775115967
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.0002863779664039612
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.0002280697226524353
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.00022652745246887207
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.00021217018365859985
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.000332757830619812
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "score 1 != optimal 8",
+   "seconds": 0.0001673772931098938
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.00038345158100128174
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "error: view/runs/matrix_v2/B_guard/seq-align-affine/trial4/verify/app/align.py\", line 94, in align\n    return (score_value, ''.join(aligned_a), ''.join(aligned_b))\n                                 ^^^^^^^^^\nUnboundLocalError: cannot access local variable 'aligned_a' where it is not associated with a value\n",
+   "seconds": 0.0004377588629722595
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "score 3 != optimal 15",
+   "seconds": 0.00025190412998199463
+  }
+ ]
+}

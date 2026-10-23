@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  null,
+  3.087337439064868
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: timeout after 300s",
+   "seconds": null
+  }
+ ]
+}

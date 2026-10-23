@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 1,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-438ded9377dddfaf",
+ "reward": 0,
+ "score": 0.030303030303030304,
+ "agent_seconds": 186.5,
+ "agent": {
+  "turns": 3,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 21993,
+  "completion_tokens": 13171,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 186.5,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.030303030303030304,
+  "n_pass": 2,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.03125,
+  "perf_seconds": [
+   10.383505560457706,
+   10.258179135620594
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -9223372036854775808 != optimal -8",
+    "seconds": 0.0003822892904281616
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+    "seconds": 0.0005569681525230408
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -9223372036854775808 != optimal -11",
+    "seconds": 6.796419620513916e-05
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+    "seconds": 0.0002446398138999939
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: <path>\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                         ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.0008218586444854736
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+    "seconds": 0.0002134963870048523
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: nk/seq-align-affine/trial1/verify/app/align.py\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                                                                ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+    "seconds": 0.0013119131326675415
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+    "seconds": 0.0002037137746810913
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "error: <path>\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                         ^^^^^\nNameError: name 'match' is not defined\n",
+    "seconds": 0.001204080879688263
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+    "seconds": 0.0006283745169639587
+   }
+  ],
+  "verifier_seconds": 25.9
+ }
+}

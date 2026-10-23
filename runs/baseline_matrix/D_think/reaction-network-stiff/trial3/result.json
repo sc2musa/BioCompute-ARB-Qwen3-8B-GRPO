@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 3,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-7275d75d7a5e6864",
+ "reward": 0,
+ "score": 0.75,
+ "agent_seconds": 204.8,
+ "agent": {
+  "turns": 3,
+  "tool_calls": 3,
+  "tool_errors": 0,
+  "prompt_tokens": 4790,
+  "completion_tokens": 8249,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 204.8,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.75,
+  "n_pass": 6,
+  "n_cases": 8,
+  "total_seconds": 2.2362444028258324,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": 0.0009683899918874247,
+    "seconds": 0.11366725713014603,
+    "reason": "max scaled error 9.68e-04 > 1e-04"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": 0.0042313710835252235,
+    "seconds": 0.15280424803495407,
+    "reason": "max scaled error 4.23e-03 > 1e-04"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": true,
+    "max_scaled_error": 6.17707331178577e-06,
+    "seconds": 0.11189378052949905,
+    "reason": "ok"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": true,
+    "max_scaled_error": 1.0329427566247389e-05,
+    "seconds": 0.06739675253629684,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": true,
+    "max_scaled_error": 2.860666253447649e-06,
+    "seconds": 0.3150564283132553,
+    "reason": "ok"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": true,
+    "max_scaled_error": 7.881178399527242e-06,
+    "seconds": 0.1729165017604828,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": true,
+    "max_scaled_error": 9.82214251292527e-06,
+    "seconds": 0.5489892065525055,
+    "reason": "ok"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": true,
+    "max_scaled_error": 3.564319972462213e-05,
+    "seconds": 0.7535202279686928,
+    "reason": "ok"
+   }
+  ],
+  "verifier_seconds": 24.1
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.75,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

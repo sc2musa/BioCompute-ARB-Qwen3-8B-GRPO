@@ -1,0 +1,3 @@
+{"pass": true, "score": 1.0, "n_pass": 8, "n_cases": 8, "total_seconds": 2.5350506282411516, "per_case": {"michaelis_menten_full": true, "robertson_autocatalysis": true, "gene_expression_dimerisation": true, "sir_mass_action": true, "mapk_cascade_3tier": true, "mapk_cascade_4tier": true, "random_closed_12": true, "random_closed_40": true}}
+
+[stderr]

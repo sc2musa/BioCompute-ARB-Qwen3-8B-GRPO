@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.030303030303030304,
+ "n_pass": 2,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.03125,
+ "perf_seconds": [
+  18.678485542535782,
+  18.46901360154152
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "score -9223372036854775808 != optimal -8",
+   "seconds": 0.002485804259777069
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+   "seconds": 0.002491474151611328
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score -9223372036854775808 != optimal -11",
+   "seconds": 0.00013058632612228394
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+   "seconds": 0.0002748444676399231
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: <path>\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                         ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0008541792631149292
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+   "seconds": 0.00021658837795257568
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: nk/seq-align-affine/trial1/verify/app/align.py\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                                                                ^^^^^^^^\nNameError: name 'mismatch' is not defined\n",
+   "seconds": 0.0016474947333335876
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+   "seconds": 0.00021757185459136963
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: <path>\", line 64, in backtrack_global\n    if dp[i][j][0] == dp[i-1][j-1][0] + (match if seq_a[i-1] == seq_b[j-1] else mismatch):\n                                         ^^^^^\nNameError: name 'match' is not defined\n",
+   "seconds": 0.0012251287698745728
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "error:                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/matrix_v2/D_think/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    i, j = np.unravel_index(np.argmax(dp), dp.shape)\n    ^^^^\nValueError: too many values to unpack (expected 2)\n",
+   "seconds": 0.0006540343165397644
+  }
+ ]
+}

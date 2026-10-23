@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  2.2504766900092363,
+  2.2432838520035148
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "score 2 != optimal 0",
+   "seconds": 2.256000880151987e-05
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "score 2 != optimal 0",
+   "seconds": 9.38598532229662e-06
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial0/verify/app/align.py\", line 73, in align\n    aligned_b = seq_b[j-1] + aligned_b\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.0007314960239455104
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial0/verify/app/align.py\", line 73, in align\n    aligned_b = seq_b[j-1] + aligned_b\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00021392595954239368
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial0/verify/app/align.py\", line 76, in align\n    aligned_a = seq_a[i-1] + aligned_a\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00018837093375623226
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial0/verify/app/align.py\", line 76, in align\n    aligned_a = seq_a[i-1] + aligned_a\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00016800197772681713
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "score 6 != optimal 3",
+   "seconds": 3.2649957574903965e-05
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "score 6 != optimal 3",
+   "seconds": 9.029987268149853e-06
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score -1 != optimal -3",
+   "seconds": 8.323928341269493e-06
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "score -1 != optimal 0",
+   "seconds": 7.194001227617264e-06
+  }
+ ]
+}

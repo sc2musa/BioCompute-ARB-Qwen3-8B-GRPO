@@ -1,0 +1,3 @@
+{"pass": true, "score": 0.9236111111111112, "n_pass": 10, "n_cases": 12, "criterion_pass_rate": {"R0": 1.0, "R_post": 0.8333333333333334, "change_day": 1.0, "forecast": 0.9166666666666666}, "total_seconds": 300.31762427813374}
+
+[stderr]

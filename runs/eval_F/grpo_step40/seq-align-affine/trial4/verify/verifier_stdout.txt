@@ -1,0 +1,3 @@
+{"pass": false, "score": 0.22727272727272727, "n_pass": 15, "n_cases": 66, "correctness_pass_rate": 0.234375, "perf_seconds": [3.5017254360718653, 3.5154566110577434]}
+
+[stderr]

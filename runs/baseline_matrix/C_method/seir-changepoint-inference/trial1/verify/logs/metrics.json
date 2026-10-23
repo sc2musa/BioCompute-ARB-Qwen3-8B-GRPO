@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.00015207380056381226,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 1.3746321201324463e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 1.2740492820739746e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 1.1727213859558105e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 1.2829899787902832e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 1.2472271919250488e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 1.2166798114776611e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 1.2449920177459717e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 1.309812068939209e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 1.239776611328125e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 1.370161771774292e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 1.2427568435668945e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 1.2315809726715088e-05,
+   "error": "fit() must return a dict",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

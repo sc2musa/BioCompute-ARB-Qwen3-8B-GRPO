@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.015151515151515152,
+ "n_pass": 1,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.015625,
+ "perf_seconds": [
+  0.065589539706707,
+  0.025646314024925232
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (1,1)\n",
+   "seconds": 0.0014031082391738892
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (1,1)\n",
+   "seconds": 0.00029718875885009766
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (5,1)\n",
+   "seconds": 0.0002336651086807251
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (5,1)\n",
+   "seconds": 0.00021505355834960938
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: $ROOT/runs/matrix_v2/E_think_method/seq-align-affine/trial0/verify/app/align.py\", line 126, in align\n    prev_matrix, prev_i, prev_j = back_Y[current_i][current_j]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: not enough values to unpack (expected 3, got 1)\n",
+   "seconds": 0.000437028706073761
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (2,2)\n",
+   "seconds": 0.00022940337657928467
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (2,2)\n",
+   "seconds": 0.00021339952945709229
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (2,2)\n",
+   "seconds": 0.0002107173204421997
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (2,2)\n",
+   "seconds": 0.00020148605108261108
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "error: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$SHARED\", line 330, in full\n    multiarray.copyto(a, fill_value, casting='unsafe')\nValueError: could not broadcast input array from shape (3,) into shape (9,9)\n",
+   "seconds": 0.0002048686146736145
+  }
+ ]
+}

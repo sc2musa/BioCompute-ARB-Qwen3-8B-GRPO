@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 0,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-ae0c5eb875bce72b",
+ "reward": 0,
+ "score": 0.15151515151515152,
+ "agent_seconds": 86.8,
+ "agent": {
+  "turns": 16,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 68689,
+  "completion_tokens": 7638,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 86.8,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.15151515151515152,
+  "n_pass": 10,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.15625,
+  "perf_seconds": [
+   3.2394903330132365,
+   3.224576210952364
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score 0 != optimal -8",
+    "seconds": 1.4890101738274097e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score 0 != optimal -11",
+    "seconds": 6.632995791733265e-06
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "column with two gaps",
+    "seconds": 8.813105523586273e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -40 != optimal -38",
+    "seconds": 0.00015349406749010086
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 9 != optimal -1",
+    "seconds": 0.00019237108062952757
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 12 != optimal 15",
+    "seconds": 0.00019266700837761164
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score -134 != optimal 153",
+    "seconds": 0.029292204068042338
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 11 != optimal 42",
+    "seconds": 0.014282569056376815
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "score 275 != optimal 360",
+    "seconds": 0.009594847913831472
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "score 182 != optimal 384",
+    "seconds": 0.05717671103775501
+   }
+  ],
+  "verifier_seconds": 8.6
+ }
+}

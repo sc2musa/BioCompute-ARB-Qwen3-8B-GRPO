@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 11,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-04ed1c69086f23b9",
+ "reward": 0,
+ "score": 0.09090909090909091,
+ "agent_seconds": 400.6,
+ "agent": {
+  "turns": 5,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 63651,
+  "completion_tokens": 39560,
+  "submitted": false,
+  "stop_reason": "api_error: BadRequestError: Error code: 400 - {'error': {'message': \"'max_tokens' or 'max_completion_tokens' is too large: 12288. This model's maximum context length is 40960 tokens and your request has 28881 input tokens (12288 > 40960 - 28881). None\", 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 2,
+  "wall_seconds": 400.6,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.09090909090909091,
+  "n_pass": 6,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.09375,
+  "perf_seconds": [
+   0.0505879350239411,
+   0.04246063297614455
+  ],
+  "failures": [
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 4.460918717086315e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 2.877088263630867e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.0035832440480589867
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.000253122067078948
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "score -2 != optimal -3",
+    "seconds": 1.7344951629638672e-05
+   },
+   {
+    "id": "edge5_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.00020127592142671347
+   },
+   {
+    "id": "edge5_local",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.00017967796884477139
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -10 != optimal -38",
+    "seconds": 0.00012893194798380136
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.00019048899412155151
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "error: $ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial11/verify/app/align.py\", line 41, in align\n    option1 = match[i-1][j-1] + current_score\n              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n",
+    "seconds": 0.00018040405120700598
+   }
+  ],
+  "verifier_seconds": 0.9
+ }
+}

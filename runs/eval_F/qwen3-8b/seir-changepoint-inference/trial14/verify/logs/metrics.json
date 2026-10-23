@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.024508904083631933,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.002537898952141404,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.002762929070740938,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0016697760438546538,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0023549050092697144,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0016965949907898903,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0017416180344298482,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.001647255034185946,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.00207507295999676,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0021081280428916216,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.002073099953122437,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0020958270179107785,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0017457989742979407,
+   "error": "2/site-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: fit.<locals>.seir_model() missing 3 required positional arguments: 'I', 'R', and 'gamma'\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  6.198883056640625e-06,
+  5.476176738739014e-06
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 6.102025508880615e-06
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 3.419816493988037e-06
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 1.8402934074401855e-06
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 1.2740492820739746e-06
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 1.4454126358032227e-06
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 1.125037670135498e-06
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 1.0207295417785645e-06
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 9.08970832824707e-07
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 9.08970832824707e-07
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "return value must be (score, aligned_a, aligned_b)",
+   "seconds": 8.791685104370117e-07
+  }
+ ]
+}

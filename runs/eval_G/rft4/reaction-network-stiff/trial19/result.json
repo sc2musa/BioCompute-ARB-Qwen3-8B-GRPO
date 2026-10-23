@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 19,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-10e9c0570a2f9c00",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 481.4,
+ "agent": {
+  "turns": 5,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 49969,
+  "completion_tokens": 48400,
+  "submitted": false,
+  "stop_reason": "api_error: BadRequestError: Error code: 400 - {'error': {'message': \"'max_tokens' or 'max_completion_tokens' is too large: 12288. This model's maximum context length is 40960 tokens and your request has 40106 input tokens (12288 > 40960 - 40106). None\", 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 1,
+  "wall_seconds": 481.4,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.06019705405924469,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0017145900055766106,
+    "reason": "error: /roll/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (3,4) and (3,) not aligned: 4 (dim 1) != 3 (dim 0)\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": 1.8004762901311833,
+    "seconds": 0.04576011700555682,
+    "reason": "max scaled error 1.80e+00 > 1e-04"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0016615040367469192,
+    "reason": "error: /roll/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (9,5) and (9,) not aligned: 5 (dim 1) != 9 (dim 0)\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0015757420333102345,
+    "reason": "error: /roll/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (2,3) and (2,) not aligned: 3 (dim 1) != 2 (dim 0)\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0017122429562732577,
+    "reason": "error: /lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (18,16) and (18,) not aligned: 16 (dim 1) != 18 (dim 0)\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0017350449925288558,
+    "reason": "error: /lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (24,21) and (24,) not aligned: 21 (dim 1) != 24 (dim 0)\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0017932800110429525,
+    "reason": "error: /lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (28,12) and (28,) not aligned: 12 (dim 1) != 28 (dim 0)\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.00424453301820904,
+    "reason": "error: b/python3.12/site-packages/scipy/integrate/_ivp/ivp.py\", line 623, in solve_ivp\n    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: shapes (100,40) and (100,) not aligned: 40 (dim 1) != 100 (dim 0)\n"
+   }
+  ],
+  "verifier_seconds": 5.8
+ }
+}

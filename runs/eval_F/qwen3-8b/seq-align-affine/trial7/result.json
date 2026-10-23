@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 7,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-119e0af80639035b",
+ "reward": 0,
+ "score": 0.18181818181818182,
+ "agent_seconds": 91.2,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 45038,
+  "completion_tokens": 6450,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 91.1,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.18181818181818182,
+  "n_pass": 12,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.1875,
+  "perf_seconds": [
+   3.1140983779914677,
+   3.1133656289894134
+  ],
+  "failures": [
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 2.4329056032001972e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -20 != optimal -11",
+    "seconds": 9.767012670636177e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 1.1635944247245789e-05
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 1.3884040527045727e-05
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -22 != optimal -38",
+    "seconds": 0.00018531200475990772
+   },
+   {
+    "id": "edge6_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 0.000166652025654912
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 0 != optimal -1",
+    "seconds": 0.00021364691201597452
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 12 != optimal 15",
+    "seconds": 0.00019811198581010103
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score 177 != optimal 153",
+    "seconds": 0.03405611903872341
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "reported score does not match the returned alignment",
+    "seconds": 0.01437698700465262
+   }
+  ],
+  "verifier_seconds": 8.5
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.07943302392959595,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0020810142159461975,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.01097196340560913,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.007435627281665802,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.011329419910907745,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0017704740166664124,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0020841285586357117,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.002082720398902893,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0021530166268348694,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.021309345960617065,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0020202994346618652,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.007930010557174683,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.008265003561973572,
+   "error": "ix_v2/D_think/seir-changepoint-inference/trial4/verify/app/fit.py\", line 42, in estimate_R0\n    result = minimize(loss, 2.0, method='L-BFGS-B', bounds=[(0.1, 100)])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: list indices must be integers or slices, not float\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

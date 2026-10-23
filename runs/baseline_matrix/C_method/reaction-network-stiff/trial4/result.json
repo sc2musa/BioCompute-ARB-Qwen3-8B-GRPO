@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 4,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-27c0e5954a84b528",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 37.9,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 25725,
+  "completion_tokens": 1106,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 7,
+  "repeat_notes": 6,
+  "overflow_retries": 0,
+  "wall_seconds": 37.9,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 0.11262976378202438,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.007507406175136566,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.03176627308130264,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.01609034091234207,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011617258191108704,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.014018505811691284,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.011152729392051697,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.01942993700504303,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": 0.0010473132133483887,
+    "reason": "error: nt/$ROOT/runs/matrix_v2/C_method/reaction-network-stiff/trial4/verify/app/simulate.py\", line 29, in simulate\n    for s_idx, (species_name, stoich) in products.items():\n               ^^^^^^^^^^^^^^^^^^^^^^\nTypeError: cannot unpack non-iterable int object\n"
+   }
+  ],
+  "verifier_seconds": 23.1
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "reaction-network-stiff": {
+  "trials": 5,
+  "pass_rate": 0.0,
+  "pass_at_k": 0,
+  "mean_score": 0.225,
+  "scores": [
+   0.0,
+   0.0,
+   0.625,
+   0.5,
+   0.0
+  ],
+  "mean_agent_seconds": 36.06,
+  "mean_tool_calls": 9.6,
+  "mean_tokens": 54607.6,
+  "submit_rate": 1.0,
+  "mean_repeated_calls": 3.2,
+  "stop_reasons": {
+   "submitted": 5
+  },
+  "task_digest": "39a5e66270874d2b"
+ },
+ "seir-changepoint-inference": {
+  "trials": 5,
+  "pass_rate": 0.0,
+  "pass_at_k": 0,
+  "mean_score": 0.09027777777777776,
+  "scores": [
+   0.0,
+   0.236,
+   0.0,
+   0.215,
+   0.0
+  ],
+  "mean_agent_seconds": 114.74000000000001,
+  "mean_tool_calls": 27.8,
+  "mean_tokens": 150598.0,
+  "submit_rate": 0.4,
+  "mean_repeated_calls": 18.8,
+  "stop_reasons": {
+   "max_turns": 3,
+   "submitted": 2
+  },
+  "task_digest": "1e7a111986327efe"
+ },
+ "seq-align-affine": {
+  "trials": 5,
+  "pass_rate": 0.0,
+  "pass_at_k": 0,
+  "mean_score": 0.1181818181818182,
+  "scores": [
+   0.303,
+   0.227,
+   0.0,
+   0.061,
+   0.0
+  ],
+  "mean_agent_seconds": 123.24000000000001,
+  "mean_tool_calls": 13.0,
+  "mean_tokens": 101487.4,
+  "submit_rate": 0.8,
+  "mean_repeated_calls": 6.6,
+  "stop_reasons": {
+   "max_turns": 1,
+   "submitted": 4
+  },
+  "task_digest": "dabaa297c89c06ec"
+ }
+}

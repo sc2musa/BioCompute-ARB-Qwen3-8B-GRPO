@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 9,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-d1d8bcbecd2a5791",
+ "reward": 0,
+ "score": 0.25757575757575757,
+ "agent_seconds": 560.4,
+ "agent": {
+  "turns": 11,
+  "tool_calls": 10,
+  "tool_errors": 0,
+  "prompt_tokens": 210552,
+  "completion_tokens": 52695,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 560.4,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.25757575757575757,
+  "n_pass": 17,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.265625,
+  "perf_seconds": [
+   1.9943154220236465,
+   2.2664823869708925
+  ],
+  "failures": [
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error:           ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seq-align-affine/trial9/verify/app/align.py\", line 72, in align\n    return (int(score), aligned_a, aligned_b)\n            ^^^^^^^^^^\nOverflowError: cannot convert float infinity to integer\n",
+    "seconds": 0.0008146449690684676
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error:           ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/base_G/seq-align-affine/trial9/verify/app/align.py\", line 72, in align\n    return (int(score), aligned_a, aligned_b)\n            ^^^^^^^^^^\nOverflowError: cannot convert float infinity to integer\n",
+    "seconds": 0.00021594192367047071
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -40 != optimal -38",
+    "seconds": 0.00011535105295479298
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "score 20 != optimal -1",
+    "seconds": 0.00014068407472223043
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "score 20 != optimal 15",
+    "seconds": 0.00016739999409765005
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score 152 != optimal 153",
+    "seconds": 0.016626110998913646
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 44 != optimal 42",
+    "seconds": 0.0087571379262954
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "score 366 != optimal 360",
+    "seconds": 0.005066261976025999
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "score 368 != optimal 384",
+    "seconds": 0.035857777926139534
+   },
+   {
+    "id": "rand4_global",
+    "pass": false,
+    "reason": "score 112 != optimal 106",
+    "seconds": 0.007576060015708208
+   }
+  ],
+  "verifier_seconds": 6.0
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 6,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-c174906d31b5fe5d",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 107.1,
+ "agent": {
+  "turns": 16,
+  "tool_calls": 16,
+  "tool_errors": 0,
+  "prompt_tokens": 93530,
+  "completion_tokens": 8590,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 7,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 107.1,
+  "agent": "llm",
+  "model": "qwen3-8b-rft",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   1.9735557930544019,
+   2.024503933964297
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "score 2 != optimal 0",
+    "seconds": 2.315896563231945e-05
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "score 2 != optimal 0",
+    "seconds": 0.0001235830131918192
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "score -14 != optimal -8",
+    "seconds": 1.6854028217494488e-05
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score 2 != optimal 0",
+    "seconds": 2.8786947950720787e-05
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "score -21 != optimal -11",
+    "seconds": 8.25303141027689e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score 1 != optimal 0",
+    "seconds": 1.5388941392302513e-05
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "score 6 != optimal 3",
+    "seconds": 1.3301032595336437e-05
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "score 6 != optimal 3",
+    "seconds": 2.2975029423832893e-05
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: lue = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round3/rft/seq-align-affine/trial6/verify/app/align.py\", line 62, in align\n    raise ValueError(\"Invalid DP table state\")\nValueError: Invalid DP table state\n",
+    "seconds": 0.0011064839782193303
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "score 2 != optimal 0",
+    "seconds": 4.2264931835234165e-05
+   }
+  ],
+  "verifier_seconds": 5.7
+ }
+}

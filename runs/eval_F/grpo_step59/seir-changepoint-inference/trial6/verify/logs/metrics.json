@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.010084069916047156,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0009685319382697344,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0009333159541711211,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.000766620971262455,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.0007924309466034174,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.0008089540060609579,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0007082780357450247,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.000756526947952807,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0009078690782189369,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0008722679922357202,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.0007377139991149306,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0008640500018373132,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0009675100445747375,
+   "error": "sol = solve_ivp(seir_model, [0, 70], y0, method='BDF', rtol=1e-8, atol=1e-12 * population, args=(R0,))\n                                                                                                     ^^\nUnboundLocalError: cannot access local variable 'R0' where it is not associated with a value\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

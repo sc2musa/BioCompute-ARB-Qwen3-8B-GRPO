@@ -1,0 +1,99 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 3,
+ "task_digest": "39a5e66270874d2b",
+ "workspace": "app-7a65c17db8e5a55a",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 154.9,
+ "agent": {
+  "turns": 3,
+  "tool_calls": 2,
+  "tool_errors": 0,
+  "prompt_tokens": 22515,
+  "completion_tokens": 10069,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 154.8,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "method",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 480,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmp3i7hc4my_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmpoloi_sr4_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmp9kk_99s4_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmpexm3wbr__grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmp1aewkfkz_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmpw1_uquvq_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmpic748g4u_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: ork-stiff/trial3/verify/app/tmp60k5kfom_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nNameError: name 'numpy' is not defined\n"
+   }
+  ],
+  "verifier_seconds": 23.1
+ },
+ "previous": {
+  "reward": 0,
+  "score": 0.0,
+  "task_digest": "52fac78732d98e7e"
+ }
+}

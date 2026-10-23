@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.0,
+ "perf_seconds": [
+  0.0030110490042716265,
+  0.0030059119453653693
+ ],
+ "failures": [
+  {
+   "id": "edge0_global",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.0031053610146045685
+  },
+  {
+   "id": "edge0_local",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.00016215001232922077
+  },
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 0.00011040701065212488
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 9.508803486824036e-05
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 9.429105557501316e-05
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 9.092898108065128e-05
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.848588913679123e-05
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.683896157890558e-05
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.774502202868462e-05
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: hild.py\", line 33, in main\n    value = to_jsonable(fn(**kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial17/verify/app/align.py\", line 6, in align\n    raise NotImplementedError\nNotImplementedError\n",
+   "seconds": 8.666201028972864e-05
+  }
+ ]
+}

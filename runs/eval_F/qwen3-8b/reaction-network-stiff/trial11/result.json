@@ -1,0 +1,96 @@
+{
+ "task": "reaction-network-stiff",
+ "trial": 11,
+ "task_digest": "999248984a84ca32",
+ "workspace": "app-6914928f4f979334",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 1800.1,
+ "agent": {
+  "turns": 24,
+  "tool_calls": 24,
+  "tool_errors": 0,
+  "prompt_tokens": 144963,
+  "completion_tokens": 5233,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 1800.1,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 8,
+  "total_seconds": 480,
+  "details": [
+   {
+    "id": "michaelis_menten_full",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "robertson_autocatalysis",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "gene_expression_dimerisation",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "sir_mass_action",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "mapk_cascade_3tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "mapk_cascade_4tier",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "random_closed_12",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   },
+   {
+    "id": "random_closed_40",
+    "pass": false,
+    "max_scaled_error": null,
+    "seconds": null,
+    "reason": "error: timeout after 60s"
+   }
+  ],
+  "verifier_seconds": 481.1
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 4,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-b909de1d1427bf5d",
+ "reward": 0,
+ "score": 0.10416666666666667,
+ "agent_seconds": 1104.4,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 25,
+  "tool_errors": 0,
+  "prompt_tokens": 194135,
+  "completion_tokens": 109339,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 1,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 1104.3,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.10416666666666667,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.625,
+   "forecast": 0.0
+  },
+  "total_seconds": 61.79301682696678,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 5.484086905024014,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.6069559290593884,
+     "R_post": 0.9097680514572923,
+     "forecast_rmae": 0.9990804971072395
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 4.978123323991895,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.6206990606552829,
+     "R_post": 0.8410085231388935,
+     "change_day": 1,
+     "forecast_rmae": 0.9987327438617765
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 5.475438110996038,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.5914250235312435,
+     "R_post": 0.9514620797606156,
+     "change_day": 1,
+     "forecast_rmae": 0.9834239532848827
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 5.373147296952084,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.5723727804337164,
+     "R_post": 0.8693204763259343,
+     "forecast_rmae": 0.9962131139998771
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 5.488341078045778,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.6362938697674688,
+     "R_post": 0.9343790534484789,
+     "change_day": 5,
+     "forecast_rmae": 0.9801969639668026
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 5.039169119903818,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.5371995128549825,
+     "R_post": 0.8360165030272145,
+     "change_day": 1,
+     "forecast_rmae": 0.9894706169876902
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 4.825425061979331,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.5713385181258681,
+     "R_post": 0.8590746197141201,
+     "change_day": 1,
+     "forecast_rmae": 0.9844754148807798
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 4.973446110030636,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.7576623358358516,
+     "R_post": 0.9032482796899601,
+     "forecast_rmae": 0.9825534857995658
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 4.633031854056753,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.6924502035547824,
+     "R_post": 0.8840403147084687,
+     "change_day": 8,
+     "forecast_rmae": 0.9525501361442827
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 5.5642782400827855,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.7449170227059247,
+     "R_post": 0.9499881420665098,
+     "forecast_rmae": 0.9863145829699981
+    },
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 5.446086743962951,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": true,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.5672725570251406,
+     "R_post": 0.7931216233032425,
+     "change_day": 0,
+     "forecast_rmae": 0.9878025116520924
+    },
+    "pass": false,
+    "score": 0.25
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 4.512442981940694,
+    "criteria": {
+     "R0": false,
+     "R_post": false,
+     "change_day": false,
+     "forecast": false
+    },
+    "errors": {
+     "R0": 0.689091745783573,
+     "R_post": 0.8798306191276756,
+     "change_day": 4,
+     "forecast_rmae": 0.9706354118914163
+    },
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 94.1
+ }
+}

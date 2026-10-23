@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 16,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-a08ac4652a1a77bb",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 20.4,
+ "agent": {
+  "turns": 26,
+  "tool_calls": 26,
+  "tool_errors": 0,
+  "prompt_tokens": 107546,
+  "completion_tokens": 2278,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 8,
+  "repeat_notes": 3,
+  "overflow_retries": 0,
+  "wall_seconds": 20.4,
+  "agent": "llm",
+  "model": "qwen3-8b-grpo59",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   null,
+   null
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: l>\", line 990, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1128, in get_code\n  File \"$ROOT/runs/eval_rl/grpo59_F/seq-align-affine/trial16/verify/app/align.py\", line 1\n    <2350 chars elided>\n    ^\nSyntaxError: invalid syntax\n",
+    "seconds": null
+   }
+  ],
+  "verifier_seconds": 0.6
+ }
+}

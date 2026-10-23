@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.045454545454545456,
+ "n_pass": 3,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.046875,
+ "perf_seconds": [
+  15.187276296317577,
+  15.812798619270325
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "global alignment does not spell the full input sequences",
+   "seconds": 2.7708709239959717e-05
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "global alignment does not spell the full input sequences",
+   "seconds": 1.852959394454956e-05
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error:  File \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial1/verify/app/align.py\", line 51, in align\n    if best_score < 0:\n       ^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.008718639612197876
+  },
+  {
+   "id": "edge3_global",
+   "pass": false,
+   "reason": "score 9223372036854775805 != optimal 3",
+   "seconds": 0.00014881044626235962
+  },
+  {
+   "id": "edge3_local",
+   "pass": false,
+   "reason": "error: le \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    best_score = max(M)\n                 ^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.00028486549854278564
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score 9223372036854775806 != optimal -3",
+   "seconds": 3.785640001296997e-05
+  },
+  {
+   "id": "edge4_local",
+   "pass": false,
+   "reason": "error: le \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    best_score = max(M)\n                 ^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.00022739917039871216
+  },
+  {
+   "id": "edge5_global",
+   "pass": false,
+   "reason": "score 9223372036854775803 != optimal 8",
+   "seconds": 0.00035015493631362915
+  },
+  {
+   "id": "edge5_local",
+   "pass": false,
+   "reason": "error: le \"$ROOT/runs/matrix_v2/C_method/seq-align-affine/trial1/verify/app/align.py\", line 50, in align\n    best_score = max(M)\n                 ^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "seconds": 0.0005668178200721741
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score 9223372036854775798 != optimal -38",
+   "seconds": 0.0004739612340927124
+  }
+ ]
+}

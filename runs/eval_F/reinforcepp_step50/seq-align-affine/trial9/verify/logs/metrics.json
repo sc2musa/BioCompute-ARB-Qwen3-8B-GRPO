@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.12121212121212122,
+ "n_pass": 8,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.125,
+ "perf_seconds": [
+  2.036547629046254,
+  2.0189768889686093
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial9/verify/app/align.py\", line 62, in align\n    aligned_b = seq_b[j-1] + aligned_b\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.0007362629985436797
+  },
+  {
+   "id": "edge1_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial9/verify/app/align.py\", line 62, in align\n    aligned_b = seq_b[j-1] + aligned_b\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00020970101468265057
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial9/verify/app/align.py\", line 66, in align\n    aligned_a = seq_a[i-1] + aligned_a\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.00016900105401873589
+  },
+  {
+   "id": "edge2_local",
+   "pass": false,
+   "reason": "error: **kwargs))\n                        ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seq-align-affine/trial9/verify/app/align.py\", line 66, in align\n    aligned_a = seq_a[i-1] + aligned_a\n                ~~~~~^^^^^\nIndexError: string index out of range\n",
+   "seconds": 0.0001570370513945818
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "score 0 != optimal -3",
+   "seconds": 6.958027370274067e-06
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score 0 != optimal -38",
+   "seconds": 0.00011209200602024794
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "score 0 != optimal -1",
+   "seconds": 0.00012693903408944607
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "score 0 != optimal 15",
+   "seconds": 0.00012483005411922932
+  },
+  {
+   "id": "rand0_global",
+   "pass": false,
+   "reason": "score 0 != optimal 153",
+   "seconds": 0.018845062935724854
+  },
+  {
+   "id": "rand1_local",
+   "pass": false,
+   "reason": "score 0 != optimal 42",
+   "seconds": 0.009143445990048349
+  }
+ ]
+}

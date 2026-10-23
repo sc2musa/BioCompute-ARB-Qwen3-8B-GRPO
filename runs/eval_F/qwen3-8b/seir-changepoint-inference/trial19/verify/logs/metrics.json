@@ -1,0 +1,99 @@
+{
+ "pass": false,
+ "score": 0.0,
+ "n_pass": 0,
+ "n_cases": 12,
+ "criterion_pass_rate": {
+  "R0": 0.0,
+  "R_post": 0.0,
+  "change_day": 0.0,
+  "forecast": 0.0
+ },
+ "total_seconds": 0.019136114278808236,
+ "details": [
+  {
+   "id": "outbreak01",
+   "seconds": 0.0017562659922987223,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak05",
+   "seconds": 0.0015653340378776193,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak03",
+   "seconds": 0.0019177010981366038,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak02",
+   "seconds": 0.001521318918094039,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak07",
+   "seconds": 0.001589384046383202,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak04",
+   "seconds": 0.0014869540464133024,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak11",
+   "seconds": 0.0015440459828823805,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak08",
+   "seconds": 0.0015758590307086706,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak10",
+   "seconds": 0.0015153359854593873,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak00",
+   "seconds": 0.001555933034978807,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak09",
+   "seconds": 0.0014901980757713318,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  },
+  {
+   "id": "outbreak06",
+   "seconds": 0.0016177840298041701,
+   "error": "te-packages/scipy/optimize/_minimize.py\", line 779, in minimize\n    res = _minimize_bfgs(fun, x0, args, jac, callback, **options)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+   "pass": false,
+   "score": 0.0
+  }
+ ]
+}

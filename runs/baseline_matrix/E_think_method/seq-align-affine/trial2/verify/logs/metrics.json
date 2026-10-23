@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.4393939393939394,
+ "n_pass": 29,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.453125,
+ "perf_seconds": [
+  4.113259792327881,
+  4.126215748488903
+ ],
+ "failures": [
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.00011736154556274414
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.00016004592180252075
+  },
+  {
+   "id": "rand1_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.00814761221408844
+  },
+  {
+   "id": "rand2_global",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.0054597631096839905
+  },
+  {
+   "id": "rand3_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.034545354545116425
+  },
+  {
+   "id": "rand4_global",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.008147262036800385
+  },
+  {
+   "id": "rand5_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.009395934641361237
+  },
+  {
+   "id": "rand7_local",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.019877076148986816
+  },
+  {
+   "id": "rand8_global",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.0009496361017227173
+  },
+  {
+   "id": "rand10_global",
+   "pass": false,
+   "reason": "reported score does not match the returned alignment",
+   "seconds": 0.00470365583896637
+  }
+ ]
+}

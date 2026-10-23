@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 4,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-3a0f7180983e7c4e",
+ "reward": 0,
+ "score": 0.25757575757575757,
+ "agent_seconds": 899.9,
+ "agent": {
+  "turns": 15,
+  "tool_calls": 13,
+  "tool_errors": 0,
+  "prompt_tokens": 123629,
+  "completion_tokens": 83919,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 0,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 899.8,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.25757575757575757,
+  "n_pass": 17,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.265625,
+  "perf_seconds": [
+   7.653884382918477,
+   10.174949069973081
+  ],
+  "failures": [
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "score -8 != optimal 0",
+    "seconds": 3.0819792300462723e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "score -11 != optimal 0",
+    "seconds": 2.4209730327129364e-06
+   },
+   {
+    "id": "edge6_global",
+    "pass": false,
+    "reason": "score -29.0 != optimal -38",
+    "seconds": 0.0003768739989027381
+   },
+   {
+    "id": "edge7_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.00047348393127322197
+   },
+   {
+    "id": "edge7_local",
+    "pass": false,
+    "reason": "local alignment is not a pair of substrings",
+    "seconds": 0.0006412030197679996
+   },
+   {
+    "id": "rand0_global",
+    "pass": false,
+    "reason": "score 138.0 != optimal 153",
+    "seconds": 0.07159443397540599
+   },
+   {
+    "id": "rand1_local",
+    "pass": false,
+    "reason": "score 40 != optimal 42",
+    "seconds": 0.04672832402866334
+   },
+   {
+    "id": "rand2_global",
+    "pass": false,
+    "reason": "global alignment does not spell the full input sequences",
+    "seconds": 0.024190409923903644
+   },
+   {
+    "id": "rand3_local",
+    "pass": false,
+    "reason": "score 357 != optimal 384",
+    "seconds": 0.1888095230096951
+   },
+   {
+    "id": "rand4_global",
+    "pass": false,
+    "reason": "score 91.0 != optimal 106",
+    "seconds": 0.03473558707628399
+   }
+  ],
+  "verifier_seconds": 22.5
+ }
+}

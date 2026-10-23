@@ -1,0 +1,130 @@
+{
+ "task": "seir-changepoint-inference",
+ "trial": 15,
+ "task_digest": "b0734df09f6aa0f0",
+ "workspace": "app-6fe8853db1ca09f5",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 67.4,
+ "agent": {
+  "turns": 23,
+  "tool_calls": 23,
+  "tool_errors": 0,
+  "prompt_tokens": 155698,
+  "completion_tokens": 6644,
+  "submitted": false,
+  "stop_reason": "repeat_loop",
+  "repeated_calls": 11,
+  "repeat_notes": 5,
+  "overflow_retries": 0,
+  "wall_seconds": 67.4,
+  "agent": "llm",
+  "model": "qwen3-8b-rl50",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 12,
+  "criterion_pass_rate": {
+   "R0": 0.0,
+   "R_post": 0.0,
+   "change_day": 0.0,
+   "forecast": 0.0
+  },
+  "total_seconds": 0.011286219116300344,
+  "details": [
+   {
+    "id": "outbreak01",
+    "seconds": 0.0011281210463494062,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak05",
+    "seconds": 0.0008905109716579318,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak03",
+    "seconds": 0.0009242229862138629,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak02",
+    "seconds": 0.0009044340113177896,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak07",
+    "seconds": 0.0009067360078915954,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak04",
+    "seconds": 0.0009412859799340367,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak11",
+    "seconds": 0.0009142890339717269,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak08",
+    "seconds": 0.0008725270163267851,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak10",
+    "seconds": 0.0009263870306313038,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak00",
+    "seconds": 0.0010622759582474828,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak09",
+    "seconds": 0.0008701030164957047,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   },
+   {
+    "id": "outbreak06",
+    "seconds": 0.0009453260572627187,
+    "error": "   ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_rl/rl50_F/seir-changepoint-inference/trial15/verify/app/fit.py\", line 55, in fit\n    bounds = [(0.1, 10.0), (0.1, 10.0), (0, T)]\n                                            ^\nNameError: name 'T' is not defined\n",
+    "pass": false,
+    "score": 0.0
+   }
+  ],
+  "verifier_seconds": 6.7
+ }
+}

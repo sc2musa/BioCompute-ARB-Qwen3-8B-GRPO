@@ -1,0 +1,104 @@
+{
+ "task": "seq-align-affine",
+ "trial": 16,
+ "task_digest": "4b9ee93bd052efca",
+ "workspace": "app-850b9a8a24bc5e1c",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 762.1,
+ "agent": {
+  "turns": 25,
+  "tool_calls": 21,
+  "tool_errors": 0,
+  "prompt_tokens": 230775,
+  "completion_tokens": 79016,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 5,
+  "repeat_notes": 2,
+  "overflow_retries": 19,
+  "wall_seconds": 762.1,
+  "agent": "llm",
+  "model": "qwen3-8b-rft4",
+  "thinking": true,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "presence_penalty": 0.0,
+  "public_check": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   null,
+   null
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "error: fy/app/tmp0tu8cvon_grader_child.py\", line 24, in main\n    spec.loader.exec_module(mod)\n  File \"<frozen importlib._bootstrap_external>\", line 994, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nValueError: not enough values to unpack (expected 8, got 3)\n",
+    "seconds": null
+   }
+  ],
+  "verifier_seconds": 0.6
+ }
+}

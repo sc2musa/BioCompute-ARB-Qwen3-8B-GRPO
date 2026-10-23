@@ -1,0 +1,102 @@
+{
+ "task": "seq-align-affine",
+ "trial": 1,
+ "task_digest": "dabaa297c89c06ec",
+ "workspace": "app-590f3fd07ee41ac2",
+ "reward": 0,
+ "score": 0.0,
+ "agent_seconds": 58.0,
+ "agent": {
+  "turns": 10,
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "prompt_tokens": 28997,
+  "completion_tokens": 2069,
+  "submitted": true,
+  "stop_reason": "submitted",
+  "repeated_calls": 2,
+  "repeat_notes": 0,
+  "overflow_retries": 0,
+  "wall_seconds": 57.9,
+  "agent": "llm",
+  "model": "qwen3-8b",
+  "thinking": false,
+  "guidance": "goal",
+  "repeat_guard": true,
+  "isolated": true
+ },
+ "metrics": {
+  "pass": false,
+  "score": 0.0,
+  "n_pass": 0,
+  "n_cases": 66,
+  "correctness_pass_rate": 0.0,
+  "perf_seconds": [
+   5.230307579040527e-06,
+   4.92483377456665e-06
+  ],
+  "failures": [
+   {
+    "id": "edge0_global",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 5.759298801422119e-06
+   },
+   {
+    "id": "edge0_local",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 3.4868717193603516e-06
+   },
+   {
+    "id": "edge1_global",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 1.5944242477416992e-06
+   },
+   {
+    "id": "edge1_local",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 1.214444637298584e-06
+   },
+   {
+    "id": "edge2_global",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 1.2814998626708984e-06
+   },
+   {
+    "id": "edge2_local",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 1.0654330253601074e-06
+   },
+   {
+    "id": "edge3_global",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 1.0281801223754883e-06
+   },
+   {
+    "id": "edge3_local",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 8.568167686462402e-07
+   },
+   {
+    "id": "edge4_global",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 8.419156074523926e-07
+   },
+   {
+    "id": "edge4_local",
+    "pass": false,
+    "reason": "return value must be (score, aligned_a, aligned_b)",
+    "seconds": 9.08970832824707e-07
+   }
+  ],
+  "verifier_seconds": 0.4
+ }
+}

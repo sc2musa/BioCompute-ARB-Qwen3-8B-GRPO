@@ -1,0 +1,73 @@
+{
+ "pass": false,
+ "score": 0.15151515151515152,
+ "n_pass": 10,
+ "n_cases": 66,
+ "correctness_pass_rate": 0.15625,
+ "perf_seconds": [
+  5.572107463958673,
+  0.006560627953149378
+ ],
+ "failures": [
+  {
+   "id": "edge1_global",
+   "pass": false,
+   "reason": "score 0 != optimal -8",
+   "seconds": 3.5100383684039116e-06
+  },
+  {
+   "id": "edge2_global",
+   "pass": false,
+   "reason": "score 0 != optimal -11",
+   "seconds": 2.6829075068235397e-06
+  },
+  {
+   "id": "edge4_global",
+   "pass": false,
+   "reason": "column with two gaps",
+   "seconds": 1.582398544996977e-05
+  },
+  {
+   "id": "edge6_global",
+   "pass": false,
+   "reason": "score -22.0 != optimal -38",
+   "seconds": 0.00027859502006322145
+  },
+  {
+   "id": "edge7_global",
+   "pass": false,
+   "reason": "score 0.0 != optimal -1",
+   "seconds": 0.00034147000405937433
+  },
+  {
+   "id": "edge7_local",
+   "pass": false,
+   "reason": "error:                 ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial10/verify/app/align.py\", line 28, in align\n    dp[0, i] = max(dp[0, i-1] + gap_open, 0)\n    ~~^^^^^^\nIndexError: index 9 is out of bounds for axis 1 with size 9\n",
+   "seconds": 0.0007109650177881122
+  },
+  {
+   "id": "rand0_global",
+   "pass": false,
+   "reason": "score 177.0 != optimal 153",
+   "seconds": 0.05239711899776012
+  },
+  {
+   "id": "rand1_local",
+   "pass": false,
+   "reason": "error:               ^^^^^^^^^^^^\n  File \"$ROOT/runs/eval_round4/rft4_G/seq-align-affine/trial10/verify/app/align.py\", line 28, in align\n    dp[0, i] = max(dp[0, i-1] + gap_open, 0)\n    ~~^^^^^^\nIndexError: index 97 is out of bounds for axis 1 with size 97\n",
+   "seconds": 0.00034761708229780197
+  },
+  {
+   "id": "rand2_global",
+   "pass": false,
+   "reason": "score 384.0 != optimal 360",
+   "seconds": 0.01762559707276523
+  },
+  {
+   "id": "rand3_local",
+   "pass": false,
+   "reason": "score 393.0 != optimal 384",
+   "seconds": 0.1135010679718107
+  }
+ ]
+}

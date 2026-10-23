@@ -1,0 +1,54 @@
+[
+ {
+  "id": "example0",
+  "args": {
+   "seq_a": "TATTGCTTTACAAAATTAAGGCCCAAAAGC",
+   "seq_b": "TAATACTTTACAAAGCTACGGCCCAAAAGC",
+   "mode": "global",
+   "match": 2,
+   "mismatch": -3,
+   "gap_open": -5,
+   "gap_extend": -2
+  },
+  "expected_score": 35
+ },
+ {
+  "id": "example1",
+  "args": {
+   "seq_a": "AGTGCCGACGGACCAGAACAATGTGGGGAA",
+   "seq_b": "GGTGAAGACGTACCAGAACAATATGTGGATC",
+   "mode": "local",
+   "match": 1,
+   "mismatch": -1,
+   "gap_open": -2,
+   "gap_extend": -2
+  },
+  "expected_score": 18
+ },
+ {
+  "id": "example2",
+  "args": {
+   "seq_a": "TGATGGACTCGGATCGTGTCGTAAGACGAG",
+   "seq_b": "TGATGGACTCGGGTCGTTTCGTAAGACTATAGAG",
+   "mode": "global",
+   "match": 5,
+   "mismatch": -4,
+   "gap_open": -10,
+   "gap_extend": -1
+  },
+  "expected_score": 119
+ },
+ {
+  "id": "example3",
+  "args": {
+   "seq_a": "TCAATCTGGAACCTCGCTGTTGGTAAGCCA",
+   "seq_b": "TCTTTCTGGAACCTGGACAGTTGGTTAGCCA",
+   "mode": "local",
+   "match": 3,
+   "mismatch": -2,
+   "gap_open": -4,
+   "gap_extend": -3
+  },
+  "expected_score": 61
+ }
+]
